@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>魯賓遜漂流記：荒島日誌｜文字冒險生存遊戲</title>
+<meta name="description" content="一場文字裡的荒島求生。十章劇情、背包合成、隨機事件與航海評等，支援 13 種語言的文字冒險生存遊戲。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="魯賓遜漂流記：荒島日誌">
+<meta property="og:description" content="一場文字裡的荒島求生。十章劇情的文字冒險生存遊戲。">
+<meta property="og:image" content="assets/og-cover.jpg"><!-- 部署後改為絕對網址 -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏝️</text></svg>">
+<style>
+  :root {
+    --parchment: #FAF3E0;
+    --parchment-light: #F5EBD8;
+    --ink: #3D2B1F;
+    --leather: #5C4033;
+    --faded-brown: #6D5D4D;
+    --muted-brown: #795548;
+    --gold: #D4AF37;
+    --green: #7A9D7A;
+    --amber: #D4A574;
+    --rust: #B7410E;
+    --shadow: rgba(92, 64, 51, 0.15);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--parchment) url('assets/paper_texture.webp');
+    color: var(--ink);
+    font-family: 'Noto Serif TC', 'Songti TC', 'PMingLiU', Georgia, serif;
+    line-height: 1.7;
+  }
+  a { color: var(--leather); }
+  img { max-width: 100%; display: block; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+
+  header {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 14px 20px; max-width: 960px; margin: 0 auto;
+  }
+  .brand { font-weight: bold; letter-spacing: 1px; }
+  .lang-switch {
+    font-size: 0.85rem; text-decoration: none;
+    border: 1px solid var(--faded-brown); border-radius: 20px; padding: 4px 14px;
+  }
+
+  .hero { text-align: center; padding: 32px 0 48px; }
+  .hero h1 { font-size: 1.9rem; letter-spacing: 2px; margin-bottom: 10px; }
+  .hero .tagline { font-size: 1.15rem; color: var(--muted-brown); margin-bottom: 6px; }
+  .hero .sub { font-size: 0.95rem; color: var(--faded-brown); margin-bottom: 26px; }
+  .hero-img {
+    margin: 0 auto 30px; max-width: 420px;
+    border: 3px solid var(--gold); border-radius: 6px;
+    box-shadow: 0 8px 24px var(--shadow); overflow: hidden;
+  }
+  .divider { color: var(--gold); letter-spacing: 6px; margin: 4px 0 18px; }
+
+  .stores { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+  .store-btn {
+    display: flex; align-items: center; gap: 10px;
+    background: var(--leather); color: var(--parchment); text-decoration: none;
+    padding: 10px 20px; border-radius: 10px; min-width: 170px;
+    box-shadow: 0 4px 10px var(--shadow); transition: opacity 0.2s;
+  }
+  .store-btn:active { opacity: 0.85; }
+  .store-btn svg { width: 26px; height: 26px; fill: var(--parchment); flex-shrink: 0; }
+  .store-btn .txt { text-align: left; line-height: 1.25; }
+  .store-btn .small { font-size: 0.68rem; opacity: 0.85; display: block; }
+  .store-btn .big { font-size: 1.02rem; }
+
+  section { padding: 44px 0; }
+  section h2 {
+    text-align: center; font-size: 1.4rem; letter-spacing: 3px; margin-bottom: 8px;
+  }
+  section .lede { text-align: center; color: var(--faded-brown); font-size: 0.92rem; margin-bottom: 28px; }
+
+  .features { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  @media (min-width: 600px) { .features { grid-template-columns: 1fr 1fr; } }
+  .card {
+    background: var(--parchment-light); border: 1px solid rgba(92,64,51,0.2);
+    border-radius: 8px; padding: 20px; box-shadow: 0 3px 8px var(--shadow);
+  }
+  .card .icon { font-size: 1.6rem; margin-bottom: 6px; }
+  .card h3 { font-size: 1.05rem; margin-bottom: 6px; }
+  .card p { font-size: 0.9rem; color: var(--faded-brown); }
+
+  .gallery {
+    display: flex; gap: 14px; overflow-x: auto; padding: 4px 20px 16px;
+    scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;
+  }
+  .gallery figure {
+    flex: 0 0 240px; scroll-snap-align: start;
+    background: var(--parchment-light); border: 1px solid rgba(92,64,51,0.2);
+    border-radius: 8px; overflow: hidden; box-shadow: 0 3px 8px var(--shadow);
+  }
+  .gallery img { width: 240px; height: 240px; object-fit: cover; }
+  .gallery figcaption { font-size: 0.82rem; text-align: center; padding: 8px; color: var(--muted-brown); }
+
+  .journal {
+    background: rgba(245, 235, 220, 0.9); border: 1px solid rgba(92,64,51,0.25);
+    border-radius: 8px; padding: 24px; max-width: 560px; margin: 0 auto;
+    box-shadow: 0 6px 16px var(--shadow);
+  }
+  .journal .day { text-align: center; color: var(--muted-brown); font-size: 0.85rem; letter-spacing: 2px; margin-bottom: 12px; }
+  .journal .narrative { font-size: 0.95rem; margin-bottom: 20px; }
+  .option {
+    border: 2px solid; border-radius: 8px; background: var(--parchment);
+    padding: 10px 14px; font-size: 0.9rem; margin-bottom: 10px; cursor: default;
+  }
+  .option.safe { border-color: var(--green); }
+  .option.risky { border-color: var(--amber); }
+  .option.danger { border-color: var(--rust); }
+  .option .cost { font-size: 0.78rem; color: var(--faded-brown); }
+
+  .langs { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; max-width: 640px; margin: 0 auto; }
+  .langs span {
+    background: var(--parchment-light); border: 1px solid rgba(92,64,51,0.25);
+    border-radius: 20px; padding: 5px 14px; font-size: 0.85rem; color: var(--muted-brown);
+  }
+
+  .cta-final { text-align: center; background: var(--leather); color: var(--parchment); padding: 52px 20px; }
+  .cta-final h2 { color: var(--parchment); margin-bottom: 6px; }
+  .cta-final p { color: rgba(250,243,224,0.8); font-size: 0.92rem; margin-bottom: 24px; }
+  .cta-final .store-btn { background: var(--parchment); color: var(--ink); }
+  .cta-final .store-btn svg { fill: var(--ink); }
+
+  footer { text-align: center; padding: 24px 20px; font-size: 0.8rem; color: var(--faded-brown); }
+</style>
+</head>
+<body>
+
+<header>
+  <span class="brand">荒島日誌</span>
+  <a class="lang-switch" href="en/">English</a>
+</header>
+
+<section class="hero wrap">
+  <h1>魯賓遜漂流記：荒島日誌</h1>
+  <div class="divider">⚓ ⚓ ⚓</div>
+  <p class="tagline">一場文字裡的荒島求生</p>
+  <p class="sub">十章劇情的文字冒險生存遊戲。每一個選擇，都寫進你的日誌。</p>
+  <div class="hero-img"><img src="assets/hero.webp" alt="魯賓遜漂流記：荒島日誌 遊戲封面" width="900" height="900"></div>
+  <div class="stores">
+    <a class="store-btn" href="#" aria-label="於 App Store 下載">
+      <svg viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      <span class="txt"><span class="small">Download on the</span><span class="big">App Store</span></span>
+    </a>
+    <a class="store-btn" href="#" aria-label="於 Google Play 下載">
+      <svg viewBox="0 0 24 24"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35l9.9 9.85-9.9 9.85c-.5-.25-.84-.76-.84-1.35m13.81-5.38L6.05 21.34l8.49-8.49 2.27 2.27m3.35-4.31c.34.27.59.69.59 1.19s-.22.9-.57 1.18l-2.29 1.32-2.5-2.5 2.5-2.5 2.27 1.31M6.05 2.66l10.76 6.22-2.27 2.27-8.49-8.49z"/></svg>
+      <span class="txt"><span class="small">GET IT ON</span><span class="big">Google Play</span></span>
+    </a>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>遊戲特色</h2>
+  <p class="lede">— 在羊皮紙般的頁面上，展開你的漂流 —</p>
+  <div class="features">
+    <div class="card">
+      <div class="icon">📖</div>
+      <h3>十章漂流劇情</h3>
+      <p>取材自經典原著，從船難漂流到重返文明，十個章節、數十個抉擇，親手寫下屬於你的生還故事。</p>
+    </div>
+    <div class="card">
+      <div class="icon">🎒</div>
+      <h3>背包與合成系統</h3>
+      <p>拾取漂流物資、收集島上素材，合成工具與求生裝備。每一件物品，都可能是活下去的關鍵。</p>
+    </div>
+    <div class="card">
+      <div class="icon">🌊</div>
+      <h3>隨機事件</h3>
+      <p>風暴、野獸、不速之客——每一次航程都不一樣。相同的選擇，可能迎來截然不同的命運。</p>
+    </div>
+    <div class="card">
+      <div class="icon">🏅</div>
+      <h3>航海評等</h3>
+      <p>通關後獲得 S 到 F 的航海評分與復盤評語，翻閱航海紀錄，挑戰更完美的生還之路。</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="wrap">章節掠影</h2>
+  <p class="lede wrap">— 十個章節，十段旅程 —</p>
+  <div class="gallery">
+    <figure><img src="assets/ch1.webp" alt="第一章插圖" loading="lazy" width="440" height="440"><figcaption>第一章・船難</figcaption></figure>
+    <figure><img src="assets/ch2.webp" alt="第二章插圖" loading="lazy" width="440" height="440"><figcaption>第二章・搶救物資</figcaption></figure>
+    <figure><img src="assets/ch3.webp" alt="第三章插圖" loading="lazy" width="440" height="440"><figcaption>第三章・棲身之所</figcaption></figure>
+    <figure><img src="assets/ch4.webp" alt="第四章插圖" loading="lazy" width="440" height="440"><figcaption>第四章・探索荒島</figcaption></figure>
+    <figure><img src="assets/ch5.webp" alt="第五章插圖" loading="lazy" width="440" height="440"><figcaption>第五章・自給自足</figcaption></figure>
+    <figure><img src="assets/ch6.webp" alt="第六章插圖" loading="lazy" width="440" height="440"><figcaption>第六章・島的另一面</figcaption></figure>
+    <figure><img src="assets/ch7.webp" alt="第七章插圖" loading="lazy" width="440" height="440"><figcaption>第七章・沙灘上的腳印</figcaption></figure>
+    <figure><img src="assets/ch8.webp" alt="第八章插圖" loading="lazy" width="440" height="440"><figcaption>第八章・星期五</figcaption></figure>
+    <figure><img src="assets/ch9.webp" alt="第九章插圖" loading="lazy" width="440" height="440"><figcaption>第九章・叛變的商船</figcaption></figure>
+    <figure><img src="assets/ch10.webp" alt="第十章插圖" loading="lazy" width="440" height="440"><figcaption>第十章・重返文明</figcaption></figure>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>玩法一瞥</h2>
+  <p class="lede">— 閱讀、抉擇、承擔後果 —</p>
+  <div class="journal">
+    <div class="day">— 漂流第 1 天 —</div>
+    <p class="narrative">海浪把你拋上陌生的沙灘。遠處的船骸在礁石間若隱若現，暴風雨前的烏雲正在聚攏。你渾身濕透，但還活著。</p>
+    <div class="option risky">趁退潮游向船骸，搶救物資<div class="cost">體力 −20・可能獲得工具與食物</div></div>
+    <div class="option safe">先在岸邊尋找淡水與食物<div class="cost">體力 −10・穩紮穩打</div></div>
+    <div class="option danger">立刻深入叢林尋找出路<div class="cost">體力 −30・未知的危險</div></div>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>支援 13 種語言</h2>
+  <p class="lede">— 用你的語言，讀你的冒險 —</p>
+  <div class="langs">
+    <span>繁體中文</span><span>简体中文</span><span>English</span><span>Español</span>
+    <span>Português</span><span>Français</span><span>Italiano</span><span>Deutsch</span>
+    <span>日本語</span><span>한국어</span><span>Tiếng Việt</span><span>Bahasa Indonesia</span><span>Русский</span>
+  </div>
+</section>
+
+<section class="cta-final">
+  <h2>你的荒島，正在等待</h2>
+  <p>免費下載，開始你的漂流日誌。</p>
+  <div class="stores">
+    <a class="store-btn" href="#" aria-label="於 App Store 下載">
+      <svg viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      <span class="txt"><span class="small">Download on the</span><span class="big">App Store</span></span>
+    </a>
+    <a class="store-btn" href="#" aria-label="於 Google Play 下載">
+      <svg viewBox="0 0 24 24"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35l9.9 9.85-9.9 9.85c-.5-.25-.84-.76-.84-1.35m13.81-5.38L6.05 21.34l8.49-8.49 2.27 2.27m3.35-4.31c.34.27.59.69.59 1.19s-.22.9-.57 1.18l-2.29 1.32-2.5-2.5 2.5-2.5 2.27 1.31M6.05 2.66l10.76 6.22-2.27 2.27-8.49-8.49z"/></svg>
+      <span class="txt"><span class="small">GET IT ON</span><span class="big">Google Play</span></span>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 魯賓遜漂流記：荒島日誌 · <a href="#">隱私權政策</a></p>
+</footer>
+
+</body>
+</html>
