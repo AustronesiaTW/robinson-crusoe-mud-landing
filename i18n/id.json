@@ -1,0 +1,243 @@
+{
+  "typography": {
+    "fontFamily": "Georgia, 'Times New Roman', serif",
+    "heroTitleLetterSpacing": "1px",
+    "sectionHeadingLetterSpacing": "2px",
+    "ledeFontStyle": "italic"
+  },
+  "meta": {
+    "title": "Robinson Crusoe: Jurnal Penyintas Kapal Karam | Game petualangan teks untuk bertahan hidup",
+    "description": "Bertahan hidup di pulau, satu pilihan pada satu waktu. Game bertahan hidup petualangan teks dengan cerita 10 bab, kerajinan, peristiwa acak, dan peringkat perjalanan — dalam 13 bahasa.",
+    "ogTitle": "Robinson Crusoe: Jurnal Penyintas Kapal Karam",
+    "ogDescription": "Bertahan hidup di pulau, satu pilihan demi satu. Game petualangan teks untuk bertahan hidup dalam 10 bab.",
+    "ogLocale": "id_ID"
+  },
+  "header": {
+    "brand": "Jurnal Penyintas Kapal Karam",
+    "languageSwitchLabel": "Bahasa"
+  },
+  "hero": {
+    "title": "Robinson Crusoe: Jurnal Penyintas Kapal Karam",
+    "tagline": "Bertahan hidup di pulau, satu pilihan demi satu.",
+    "sub": "Game petualangan teks untuk bertahan hidup dalam sepuluh bab. Setiap pilihan dicatat dalam jurnal Anda.",
+    "imageAlt": "Sampul Robinson Crusoe: Jurnal Penyintas Kapal Karam"
+  },
+  "stores": {
+    "appStore": {
+      "aria": "Unduh di App Store",
+      "small": "Unduh di",
+      "big": "App Store"
+    },
+    "googlePlay": {
+      "aria": "Unduh di Google Play",
+      "small": "Unduh di",
+      "big": "Google Play"
+    }
+  },
+  "features": {
+    "title": "Fitur",
+    "lede": "— Perjalananmu terungkap di halaman perkamen —",
+    "items": {
+      "story": {
+        "title": "Kisah Sepuluh Bab",
+        "body": "Terinspirasi oleh novel klasik — mulai dari kapal karam hingga penyelamatan, sepuluh bab dan lusinan pilihan membentuk kisah kelangsungan hidup Anda sendiri."
+      },
+      "crafting": {
+        "title": "Ransel dan Kerajinan",
+        "body": "Simpan persediaan, kumpulkan bahan-bahan pulau, dan buat peralatan yang Anda butuhkan. Barang apa pun mungkin yang membuat Anda tetap hidup."
+      },
+      "events": {
+        "title": "Peristiwa Acak",
+        "body": "Badai, binatang buas, tamu tak diundang — tidak ada dua pelayaran yang sama. Pilihan yang sama bisa membawa nasib yang sangat berbeda."
+      },
+      "ratings": {
+        "title": "Peringkat Pelayaran",
+        "body": "Dapatkan peringkat S hingga F dengan ulasan tertulis atas perjalanan Anda. Baca jurnal perjalanan dan kejar pelarian sempurna."
+      }
+    }
+  },
+  "chapters": {
+    "title": "Sekilas Bab",
+    "lede": "— Sepuluh bab, sepuluh perjalanan —",
+    "altPattern": "Ilustrasi bab {number}",
+    "items": {
+      "ch1": "Bab 1 · Bangkai kapal",
+      "ch2": "Bab 2 · Penyelamatan",
+      "ch3": "Bab 3 · Tempat berlindung",
+      "ch4": "Bab 4 · Eksplorasi",
+      "ch5": "Bab 5 · Kemandirian",
+      "ch6": "Bab 6 · Pantai Jauh",
+      "ch7": "Bab 7 · Jejak Kaki",
+      "ch8": "Bab 8 · Jumat",
+      "ch9": "Bab 9 · Pemberontakan",
+      "ch10": "Bab 10 · Pulang"
+    }
+  },
+  "playPreview": {
+    "title": "Sekilas Permainan",
+    "lede": "— Baca, pilih, dan jalani konsekuensinya —",
+    "day": "— HARI 1 TERDAMPAR —",
+    "narrative": "Ombak melemparkan Anda ke pantai asing. Di antara terumbu karang, bangkai kapal Anda melayang masuk dan keluar dari pandangan saat awan badai berkumpul. Anda basah kuyup - tetapi masih hidup.",
+    "options": {
+      "risky": {
+        "label": "Berenanglah ke bangkai kapal saat air surut dan selamatkan perbekalan",
+        "cost": "Stamina −20 · Peralatan dan makanan yang memungkinkan"
+      },
+      "safe": {
+        "label": "Cari di garis pantai untuk mencari air segar dan makanan",
+        "cost": "Stamina −10 · Jalur stabil"
+      },
+      "danger": {
+        "label": "Langsung menuju ke hutan untuk mencari jalan keluar",
+        "cost": "Stamina −30 · Bahaya yang tidak diketahui"
+      }
+    }
+  },
+  "languages": {
+    "title": "Tersedia dalam 13 bahasa",
+    "lede": "— Baca petualangan Anda dengan kata-kata sendiri —"
+  },
+  "finalCta": {
+    "title": "Pulau Anda sedang menunggu",
+    "body": "Unduh gratis dan mulai jurnal penyintas kapal karam Anda.",
+    "renderStores": true
+  },
+  "footer": {
+    "privacy": "Kebijakan Privasi"
+  },
+  "notFound": {
+    "title": "Halaman ini telah terdampar di tempat lain",
+    "body": "Halaman yang Anda minta tidak dapat ditemukan.",
+    "homeLink": "Kembali ke halaman beranda",
+    "languageLink": "Baca dalam bahasa Cina Tradisional"
+  },
+  "privacy": {
+    "title": "Kebijakan Privasi",
+    "metaDescription": "Kebijakan privasi untuk Robinson Crusoe: The Castaway's Journal — kemajuan game Anda tetap ada di perangkat Anda; iklan reward opsional ditayangkan oleh penyedia periklanan pihak ketiga.",
+    "backLabel": "Kembali ke rumah",
+    "lastUpdatedLabel": "Terakhir diperbarui",
+    "intro": "Singkatnya: kami tidak menjalankan server dan tidak menyimpan data pribadi tentang Anda. Kemajuan game Anda tetap ada di perangkat Anda. Game ini gratis dan didukung oleh iklan berhadiah opsional yang Anda pilih untuk ditonton — dan penyedia periklanan yang menayangkan iklan tersebut mengumpulkan pengidentifikasi perangkat dan iklan berdasarkan kebijakan privasinya sendiri. Detailnya ada di bawah.",
+    "sections": [
+      {
+        "heading": "1. Siapa yang dicakup dalam kebijakan ini",
+        "paragraphs": [
+          "Kebijakan ini berlaku untuk game seluler Robinson Crusoe: The Castaway's Journal (pengidentifikasi paket Android com.austronesiatw.robinsoncrusoe) dan situs web ini, yang menyajikan game tersebut.",
+          "Dalam kebijakan ini, “aplikasi” berarti game seluler dan “situs” berarti situs web ini."
+        ]
+      },
+      {
+        "heading": "2. Informasi yang tidak kami kumpulkan",
+        "paragraphs": [
+          "Kami tidak mengoperasikan server apa pun, dan aplikasi tidak mengirimkan apa pun kepada kami. Secara khusus, aplikasi tidak pernah mengumpulkan:"
+        ],
+        "bullets": [
+          "Nama, alamat email, nomor telepon, atau detail kontak lainnya",
+          "Akun pengguna, login, atau kata sandi — game ini tidak memiliki sistem akun",
+          "Lokasi akurat, kontak, foto, kamera, mikrofon, kalender, atau file di perangkat Anda",
+          "Informasi pembayaran atau keuangan — game ini gratis dan tidak mengandung pembelian dalam aplikasi",
+          "Permainan tersimpan atau log perjalanan Anda — ini tidak pernah meninggalkan perangkat Anda"
+        ]
+      },
+      {
+        "heading": "3. Data tersimpan di perangkat Anda",
+        "paragraphs": [
+          "Aplikasi ini menyimpan kemajuan Anda secara lokal sehingga Anda dapat menutup permainan dan melanjutkannya nanti. Data ini ditulis ke penyimpanan aplikasi pribadi perangkat Anda. Itu tidak pernah diunggah, dan tidak dapat dibaca oleh kami atau oleh penyedia periklanan.",
+          "Tiga informasi disimpan:"
+        ],
+        "bullets": [
+          "Permainan tersimpan: bab Anda saat ini, stamina, sumber daya, isi ransel, dan pilihan yang telah Anda buat dalam perjalanan saat ini",
+          "Log perjalanan: catatan perjalanan yang telah diselesaikan — skor, tingkatan, akhir, durasi, bab yang diselesaikan, dan sumber daya akhir",
+          "Pengaturan: preferensi Anda, seperti bahasa antarmuka dan apakah petunjuk dalam game ditampilkan"
+        ]
+      },
+      {
+        "heading": "4. Iklan berhadiah",
+        "paragraphs": [
+          "Game ini gratis dan didanai oleh iklan berhadiah. Iklan tidak pernah dipaksakan kepada Anda dan tidak pernah mengganggu cerita: iklan hanya diputar ketika Anda secara aktif memilih untuk menontonnya dengan imbalan keuntungan dalam game — saat ini, muncul kembali setelah permainan selesai dan memulihkan stamina ekstra. Tidak ada iklan banner dan tidak ada iklan interstisial. Anda dapat menyelesaikan seluruh permainan tanpa menonton satu iklan pun.",
+          "Iklan berhadiah dikirimkan oleh {adProvider}, layanan periklanan pihak ketiga. Untuk memilih dan menampilkan iklan, dan untuk mencegah penipuan, penyedia tersebut dapat mengumpulkan dan memproses:"
+        ],
+        "bullets": [
+          "Pengidentifikasi iklan perangkat Anda — ID yang dapat disetel ulang yang digunakan untuk membatasi iklan berulang dan mengukur kinerja iklan",
+          "Alamat IP Anda, yang dapat digunakan untuk memperoleh perkiraan lokasi tingkat kota",
+          "Informasi perangkat dan sistem seperti model, versi sistem operasi, bahasa, zona waktu, dan karakteristik layar",
+          "Data interaksi iklan seperti apakah iklan diminta, ditampilkan, ditonton sampai selesai, atau diklik"
+        ]
+      },
+      {
+        "heading": "5. Apa yang kita terima, dan apa yang tidak pernah kita lakukan",
+        "paragraphs": [
+          "Data di bagian sebelumnya dikumpulkan oleh penyedia periklanan berdasarkan kebijakan privasinya sendiri — kami tidak menerimanya dalam bentuk yang mengidentifikasi Anda. Yang sampai kepada kami hanyalah laporan agregat saja: berapa banyak iklan yang ditampilkan dan berapa banyak pendapatan yang diperoleh. Kami tidak dapat menghubungkannya kembali ke pemain individu mana pun.",
+          "Kami tidak menjual data pribadi Anda, dan kami tidak membagikannya kepada broker data. Kami tidak menggabungkan data iklan dengan permainan tersimpan atau log perjalanan Anda, yang tetap ada di perangkat Anda dan tidak pernah dikirimkan.",
+          "Penyedia periklanan memproses data yang dijelaskan di atas sebagai pengontrol independen. Kebijakannya sendiri mengatur pemrosesan itu:"
+        ],
+        "link": {
+          "label": "kebijakan privasi {adProvider}",
+          "url": "{adProviderPrivacyUrl}"
+        }
+      },
+      {
+        "heading": "6. Persetujuan dan pilihan iklan Anda",
+        "paragraphs": [
+          "Jika Anda berada di Wilayah Ekonomi Eropa, Inggris, atau Swiss, aplikasi akan meminta persetujuan Anda sebelum iklan yang dipersonalisasi digunakan, melalui dialog persetujuan yang disediakan oleh layanan periklanan. Anda mungkin menolak. Game ini tetap dapat dimainkan sepenuhnya, dan iklan reward tetap berfungsi — iklan tersebut tidak dipersonalisasi, artinya iklan tersebut tidak dipilih berdasarkan profil minat Anda. Anda dapat mengubah atau menarik pilihan Anda kapan saja di pengaturan game.",
+          "Di iOS, aplikasi harus meminta izin Anda sebelum dapat menggunakan pengidentifikasi iklan perangkat untuk pelacakan. Jika Anda menolak, pengidentifikasi tersebut tidak tersedia untuk penyedia periklanan.",
+          "Terlepas dari aplikasinya, Anda dapat mengontrol pengidentifikasi iklan di tingkat sistem:"
+        ],
+        "bullets": [
+          "Android: Setelan, lalu Privasi, lalu Iklan — Anda dapat menyetel ulang ID iklan atau menghapusnya seluruhnya",
+          "iOS: Pengaturan, lalu Privasi dan Keamanan, lalu Pelacakan — Anda dapat menonaktifkan permintaan pelacakan untuk semua aplikasi",
+          "Anda juga tidak bisa menonton iklan berhadiah; semuanya opsional"
+        ]
+      },
+      {
+        "heading": "7. Akses jaringan",
+        "paragraphs": [
+          "Semua teks cerita, terjemahan, gambar, dan data game digabungkan di dalam aplikasi dan dimuat dari penyimpanan lokal. Aplikasi ini tidak mengunduh konten game, dan tidak menghubungi server mana pun yang kami operasikan — kami tidak mengoperasikan apa pun.",
+          "Satu-satunya lalu lintas jaringan keluar aplikasi adalah ke penyedia periklanan, dan ini terjadi sehubungan dengan iklan berhadiah."
+        ]
+      },
+      {
+        "heading": "8. Menghapus data Anda",
+        "paragraphs": [
+          "Mencopot pemasangan aplikasi secara permanen akan menghapus permainan yang disimpan, log perjalanan, dan pengaturan Anda dari perangkat Anda. Menghapus penyimpanan aplikasi melalui pengaturan sistem perangkat Anda memiliki efek yang sama. Kami tidak menyimpan salinan sisi server untuk dihapus, karena tidak ada yang pernah dibuat.",
+          "Untuk menghapus atau mengatur ulang pengidentifikasi iklan yang dimiliki oleh penyedia periklanan, gunakan kontrol tingkat sistem yang tercantum di bagian 6, atau hubungi penyedia tersebut secara langsung menggunakan kebijakan yang tertaut di bagian 5."
+        ]
+      },
+      {
+        "heading": "9. Situs web ini",
+        "paragraphs": [
+          "Situs ini tidak menggunakan cookie, tidak ada analitik, tidak ada piksel pelacakan, tidak ada iklan, dan tidak ada skrip pihak ketiga. Tidak ada yang Anda lakukan di sini yang kami rekam.",
+          "Situs ini disajikan melalui Halaman GitHub. Seperti halnya host web mana pun, server GitHub dapat mencatat informasi permintaan teknis seperti alamat IP Anda dan agen pengguna browser untuk mengirimkan halaman dan melindungi layanan. Pemrosesan tersebut diatur oleh pernyataan privasi GitHub sendiri."
+        ]
+      },
+      {
+        "heading": "10. Privasi anak-anak",
+        "paragraphs": [
+          "Aplikasi ini ditujukan untuk khalayak umum dan tidak ditujukan untuk anak-anak di bawah 13 tahun. Kami tidak dengan sengaja mengumpulkan informasi pribadi dari anak-anak.",
+          "Jika aplikasi didistribusikan ke audiens yang mungkin mencakup anak-anak, penyedia periklanan dikonfigurasi untuk hanya menayangkan iklan yang ditujukan untuk anak-anak dan tidak dipersonalisasi, dan pengidentifikasi iklan tidak digunakan untuk membuat profil minat.",
+          "Jika Anda yakin ada anak yang memberikan informasi pribadi melalui aplikasi, silakan hubungi kami dan kami akan menindaklanjutinya."
+        ]
+      },
+      {
+        "heading": "11. Hak Anda",
+        "paragraphs": [
+          "Undang-undang privasi seperti GDPR dan CCPA memberi Anda hak untuk mengakses, mengoreksi, mengekspor, atau menghapus data pribadi yang disimpan tentang Anda, untuk membatalkan persetujuan, dan menolak data Anda dijual atau dibagikan.",
+          "Kami tidak menyimpan data pribadi tentang Anda, jadi kami tidak boleh mengungkapkan, memperbaiki, atau mengekspor apa pun, dan kami tidak pernah menjual atau membagikan informasi pribadi. Data yang dijelaskan di bagian 3 tetap ada di perangkat Anda dan sepenuhnya berada di bawah kendali Anda.",
+          "Untuk data periklanan yang dijelaskan di bagian 4, penyedia periklanan adalah pengontrolnya. Gunakan hak Anda terhadap penyedia tersebut menggunakan kebijakan yang tertaut di bagian 5, atau tarik persetujuan dalam pengaturan game kapan saja. Jika Anda menghubungi kami terlebih dahulu, kami akan mengarahkan Anda ke rute yang benar."
+        ]
+      },
+      {
+        "heading": "12. Perubahan kebijakan ini",
+        "paragraphs": [
+          "Jika praktik data aplikasi berubah, kebijakan ini akan diperbarui sebelum perubahan tersebut menjangkau pengguna, dan tanggal di bagian atas halaman ini akan direvisi."
+        ]
+      },
+      {
+        "heading": "13. Kontak",
+        "paragraphs": [
+          "Jika Anda memiliki pertanyaan tentang kebijakan ini, silakan hubungi kami di alamat di bawah.",
+          "Hubungi: {email}"
+        ]
+      }
+    ]
+  }
+}

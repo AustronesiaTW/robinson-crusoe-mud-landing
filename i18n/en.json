@@ -1,0 +1,243 @@
+{
+  "typography": {
+    "fontFamily": "Georgia, 'Times New Roman', serif",
+    "heroTitleLetterSpacing": "1px",
+    "sectionHeadingLetterSpacing": "2px",
+    "ledeFontStyle": "italic"
+  },
+  "meta": {
+    "title": "Robinson Crusoe: The Castaway's Journal | Text Adventure Survival Game",
+    "description": "Survive the island, one choice at a time. A text adventure survival game with a 10-chapter story, crafting, random events, and voyage ratings — in 13 languages.",
+    "ogTitle": "Robinson Crusoe: The Castaway's Journal",
+    "ogDescription": "Survive the island, one choice at a time. A 10-chapter text adventure survival game.",
+    "ogLocale": "en_US"
+  },
+  "header": {
+    "brand": "The Castaway's Journal",
+    "languageSwitchLabel": "Language"
+  },
+  "hero": {
+    "title": "Robinson Crusoe: The Castaway's Journal",
+    "tagline": "Survive the island, one choice at a time.",
+    "sub": "A text adventure survival game across ten chapters. Every choice is written into your journal.",
+    "imageAlt": "Robinson Crusoe: The Castaway's Journal cover art"
+  },
+  "stores": {
+    "appStore": {
+      "aria": "Download on the App Store",
+      "small": "Download on the",
+      "big": "App Store"
+    },
+    "googlePlay": {
+      "aria": "Get it on Google Play",
+      "small": "GET IT ON",
+      "big": "Google Play"
+    }
+  },
+  "features": {
+    "title": "Features",
+    "lede": "— Your voyage unfolds on pages of parchment —",
+    "items": {
+      "story": {
+        "title": "A Ten-Chapter Story",
+        "body": "Inspired by the classic novel — from shipwreck to rescue, ten chapters and dozens of choices shape your own survival story."
+      },
+      "crafting": {
+        "title": "Backpack & Crafting",
+        "body": "Salvage supplies, gather island materials, and craft the tools you need. Any item might be the one that keeps you alive."
+      },
+      "events": {
+        "title": "Random Events",
+        "body": "Storms, wild beasts, uninvited guests — no two voyages are alike. The same choice can lead to a very different fate."
+      },
+      "ratings": {
+        "title": "Voyage Ratings",
+        "body": "Earn an S-to-F voyage grade with a written review of your run. Browse your voyage log and chase the perfect escape."
+      }
+    }
+  },
+  "chapters": {
+    "title": "Chapter Glimpses",
+    "lede": "— Ten chapters, ten journeys —",
+    "altPattern": "Chapter {number} illustration",
+    "items": {
+      "ch1": "Ch. 1 · Shipwreck",
+      "ch2": "Ch. 2 · Salvage",
+      "ch3": "Ch. 3 · Shelter",
+      "ch4": "Ch. 4 · Exploration",
+      "ch5": "Ch. 5 · Self-Reliance",
+      "ch6": "Ch. 6 · The Far Shore",
+      "ch7": "Ch. 7 · The Footprint",
+      "ch8": "Ch. 8 · Friday",
+      "ch9": "Ch. 9 · Mutiny",
+      "ch10": "Ch. 10 · Homecoming"
+    }
+  },
+  "playPreview": {
+    "title": "A Glimpse of Play",
+    "lede": "— Read, choose, and live with it —",
+    "day": "— DAY 1 ADRIFT —",
+    "narrative": "The waves hurl you onto an unfamiliar shore. Out among the reefs, the wreck of your ship drifts in and out of view as storm clouds gather. You are soaked through — but alive.",
+    "options": {
+      "risky": {
+        "label": "Swim to the wreck at low tide and salvage supplies",
+        "cost": "Stamina −20 · Possible tools and food"
+      },
+      "safe": {
+        "label": "Search the shoreline for fresh water and food",
+        "cost": "Stamina −10 · The steady path"
+      },
+      "danger": {
+        "label": "Head straight into the jungle to find a way out",
+        "cost": "Stamina −30 · Unknown dangers"
+      }
+    }
+  },
+  "languages": {
+    "title": "Available in 13 Languages",
+    "lede": "— Read your adventure in your own words —"
+  },
+  "finalCta": {
+    "title": "Your island is waiting",
+    "body": "Download for free and begin your castaway's journal.",
+    "renderStores": true
+  },
+  "footer": {
+    "privacy": "Privacy Policy"
+  },
+  "notFound": {
+    "title": "This page has washed ashore elsewhere",
+    "body": "The page you requested could not be found.",
+    "homeLink": "Return to the home page",
+    "languageLink": "Read in Traditional Chinese"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "metaDescription": "Privacy policy for Robinson Crusoe: The Castaway's Journal — your game progress stays on your device; optional rewarded ads are delivered by a third-party advertising provider.",
+    "backLabel": "Back to home",
+    "lastUpdatedLabel": "Last updated",
+    "intro": "In short: we run no servers and hold no personal data about you. Your game progress stays on your device. The game is free and is supported by optional rewarded ads that you choose to watch — and the advertising provider that delivers those ads collects device and advertising identifiers under its own privacy policy. The details are below.",
+    "sections": [
+      {
+        "heading": "1. Who this policy covers",
+        "paragraphs": [
+          "This policy applies to the mobile game Robinson Crusoe: The Castaway's Journal (Android package identifier com.austronesiatw.robinsoncrusoe) and to this website, which presents the game.",
+          "Throughout this policy, “the app” means the mobile game and “the site” means this website."
+        ]
+      },
+      {
+        "heading": "2. Information we do not collect",
+        "paragraphs": [
+          "We do not operate any server, and the app sends nothing to us. Specifically, the app never collects:"
+        ],
+        "bullets": [
+          "Names, email addresses, phone numbers, or any other contact details",
+          "User accounts, logins, or passwords — the game has no account system",
+          "Precise location, contacts, photos, camera, microphone, calendar, or files on your device",
+          "Payment or financial information — the game is free and contains no in-app purchases",
+          "Your saved game or voyage log — these never leave your device"
+        ]
+      },
+      {
+        "heading": "3. Data stored on your device",
+        "paragraphs": [
+          "The app saves your progress locally so you can close the game and continue later. This data is written to your device's private application storage. It is never uploaded, and it is not readable by us or by the advertising provider.",
+          "Three pieces of information are stored:"
+        ],
+        "bullets": [
+          "Saved game: your current chapter, stamina, resources, backpack contents, and the choices you have made in the current run",
+          "Voyage log: a record of completed runs — score, grade, ending, duration, chapters completed, and final resources",
+          "Settings: your preferences, such as the interface language and whether in-game hints are shown"
+        ]
+      },
+      {
+        "heading": "4. Rewarded advertising",
+        "paragraphs": [
+          "The game is free and is funded by rewarded advertising. Ads are never forced on you and never interrupt the story: an ad plays only when you actively choose to watch one in exchange for an in-game benefit — currently, reviving after a game over and restoring extra stamina. There are no banner ads and no interstitial ads. You can finish the entire game without watching a single ad.",
+          "Rewarded ads are delivered by {adProvider}, a third-party advertising service. To select and display an ad, and to prevent fraud, that provider may collect and process:"
+        ],
+        "bullets": [
+          "Your device's advertising identifier — a resettable ID used to limit repeated ads and to measure ad performance",
+          "Your IP address, from which an approximate, city-level location can be derived",
+          "Device and system information such as model, operating system version, language, time zone, and screen characteristics",
+          "Ad interaction data such as whether an ad was requested, shown, watched to completion, or clicked"
+        ]
+      },
+      {
+        "heading": "5. What we receive, and what we never do",
+        "paragraphs": [
+          "The data in the previous section is collected by the advertising provider under its own privacy policy — we do not receive it in a form that identifies you. What reaches us is aggregate reporting only: how many ads were shown and how much revenue was earned. We cannot link that back to any individual player.",
+          "We do not sell your personal data, and we do not share it with data brokers. We combine no advertising data with your saved game or voyage log, which remain on your device and are never transmitted.",
+          "The advertising provider processes the data described above as an independent controller. Its own policy governs that processing:"
+        ],
+        "link": {
+          "label": "{adProvider} privacy policy",
+          "url": "{adProviderPrivacyUrl}"
+        }
+      },
+      {
+        "heading": "6. Consent and your advertising choices",
+        "paragraphs": [
+          "If you are in the European Economic Area, the United Kingdom, or Switzerland, the app asks for your consent before personalised advertising is used, through a consent dialogue provided by the advertising service. You may decline. The game remains fully playable, and rewarded ads still work — they will simply be non-personalised, meaning they are not selected based on a profile of your interests. You can change or withdraw your choice at any time in the game's settings.",
+          "On iOS, the app must ask for your permission before it can use the device advertising identifier for tracking. If you decline, that identifier is not available to the advertising provider.",
+          "Independently of the app, you can control the advertising identifier at the system level:"
+        ],
+        "bullets": [
+          "Android: Settings, then Privacy, then Ads — you can reset the advertising ID or delete it entirely",
+          "iOS: Settings, then Privacy and Security, then Tracking — you can switch off tracking requests for all apps",
+          "You can also simply not watch rewarded ads; they are entirely optional"
+        ]
+      },
+      {
+        "heading": "7. Network access",
+        "paragraphs": [
+          "All story text, translations, images, and game data are bundled inside the app and loaded from local storage. The app does not download game content, and it does not contact any server operated by us — we operate none.",
+          "The app's only outbound network traffic is to the advertising provider, and it occurs in connection with rewarded ads."
+        ]
+      },
+      {
+        "heading": "8. Deleting your data",
+        "paragraphs": [
+          "Uninstalling the app permanently deletes the saved game, the voyage log, and your settings from your device. Clearing the app's storage through your device's system settings has the same effect. We hold no server-side copy to delete, because none is ever created.",
+          "To erase or reset the advertising identifier held by the advertising provider, use the system-level controls listed in section 6, or contact that provider directly using the policy linked in section 5."
+        ]
+      },
+      {
+        "heading": "9. This website",
+        "paragraphs": [
+          "The site uses no cookies, no analytics, no tracking pixels, no advertising, and no third-party scripts. Nothing you do here is recorded by us.",
+          "The site is served through GitHub Pages. As with any web host, GitHub's servers may record technical request information such as your IP address and browser user agent in order to deliver the page and protect the service. That processing is governed by GitHub's own privacy statement."
+        ]
+      },
+      {
+        "heading": "10. Children's privacy",
+        "paragraphs": [
+          "The app is intended for a general audience and is not directed at children under 13. We do not knowingly collect personal information from children.",
+          "Where the app is distributed to an audience that may include children, the advertising provider is configured to serve only non-personalised, child-directed advertising, and the advertising identifier is not used to build an interest profile.",
+          "If you believe a child has provided personal information through the app, please contact us and we will act on it."
+        ]
+      },
+      {
+        "heading": "11. Your rights",
+        "paragraphs": [
+          "Privacy laws such as the GDPR and the CCPA give you rights to access, correct, export, or delete personal data held about you, to withdraw consent, and to object to your data being sold or shared.",
+          "We hold no personal data about you, so we have nothing to disclose, correct, or export, and we have never sold or shared personal information. The data described in section 3 stays on your device and remains entirely under your control.",
+          "For the advertising data described in section 4, the advertising provider is the controller. Exercise your rights against that provider using the policy linked in section 5, or withdraw consent in the game's settings at any time. If you contact us first, we will point you to the right route."
+        ]
+      },
+      {
+        "heading": "12. Changes to this policy",
+        "paragraphs": [
+          "If the app's data practices change, this policy will be updated before the change reaches users, and the date at the top of this page will be revised."
+        ]
+      },
+      {
+        "heading": "13. Contact",
+        "paragraphs": [
+          "If you have questions about this policy, please contact us at the address below.",
+          "Contact: {email}"
+        ]
+      }
+    ]
+  }
+}

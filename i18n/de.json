@@ -1,0 +1,243 @@
+{
+  "typography": {
+    "fontFamily": "Georgia, 'Times New Roman', serif",
+    "heroTitleLetterSpacing": "1px",
+    "sectionHeadingLetterSpacing": "2px",
+    "ledeFontStyle": "italic"
+  },
+  "meta": {
+    "title": "Robinson Crusoe: Das Tagebuch des Schiffbrüchigen | Text-Abenteuer-Überlebensspiel",
+    "description": "Überlebe die Insel, eine Entscheidung nach der anderen. Ein Text-Abenteuer-Überlebensspiel mit einer 10-Kapitel-Geschichte, Handwerk, Zufallsereignissen und Reisebewertungen – in 13 Sprachen.",
+    "ogTitle": "Robinson Crusoe: Das Tagebuch des Schiffbrüchigen",
+    "ogDescription": "Überlebe die Insel, eine Entscheidung nach der anderen. Ein Text-Abenteuer-Überlebensspiel mit 10 Kapiteln.",
+    "ogLocale": "de_DE"
+  },
+  "header": {
+    "brand": "Das Tagebuch des Schiffbrüchigen",
+    "languageSwitchLabel": "Sprache"
+  },
+  "hero": {
+    "title": "Robinson Crusoe: Das Tagebuch des Schiffbrüchigen",
+    "tagline": "Überlebe die Insel, eine Entscheidung nach der anderen.",
+    "sub": "Ein Text-Adventure-Überlebensspiel mit zehn Kapiteln. Jede Wahl wird in dein Tagebuch geschrieben.",
+    "imageAlt": "„Robinson Crusoe: The Castaway's Journal“-Titelbild"
+  },
+  "stores": {
+    "appStore": {
+      "aria": "Im App Store herunterladen",
+      "small": "Laden im",
+      "big": "App Store"
+    },
+    "googlePlay": {
+      "aria": "herunterladen Bei Google Play herunterladen",
+      "small": "Laden bei",
+      "big": "Google Play"
+    }
+  },
+  "features": {
+    "title": "Funktionen",
+    "lede": "— Deine Reise entfaltet sich auf Pergamentseiten —",
+    "items": {
+      "story": {
+        "title": "Eine Geschichte mit zehn Kapiteln",
+        "body": "Inspiriert vom klassischen Roman – vom Schiffbruch bis zur Rettung – formen zehn Kapitel und Dutzende Auswahlmöglichkeiten deine eigene Überlebensgeschichte."
+      },
+      "crafting": {
+        "title": "Rucksack und Handwerk",
+        "body": "Rette Vorräte, sammle Inselmaterialien und stelle die Werkzeuge her, die du brauchst. Jeder Gegenstand könnte derjenige sein, der dich am Leben hält."
+      },
+      "events": {
+        "title": "Zufällige Ereignisse",
+        "body": "Stürme, wilde Tiere, ungebetene Gäste – keine Reise gleicht der anderen. Die gleiche Wahl kann zu einem ganz anderen Schicksal führen."
+      },
+      "ratings": {
+        "title": "Reisebewertung",
+        "body": "Erhalte eine Bewertung von S bis F mit einer schriftlichen Rückschau auf deinen Lauf. Blättere durch dein Reisetagebuch und strebe deine perfekte Flucht an."
+      }
+    }
+  },
+  "chapters": {
+    "title": "Kapiteleinblicke",
+    "lede": "– Zehn Kapitel, zehn Reisen –",
+    "altPattern": "Illustration zu Kapitel {number}",
+    "items": {
+      "ch1": "Kap. 1 · Schiffswrack",
+      "ch2": "Kap. 2 · Bergung",
+      "ch3": "Kap. 3 · Zuflucht",
+      "ch4": "Kap. 4 · Erkundung",
+      "ch5": "Kap. 5 · Eigenständigkeit",
+      "ch6": "Kap. 6 · Das ferne Ufer",
+      "ch7": "Kap. 7 · Der Fußabdruck",
+      "ch8": "Kap. 8 · Freitag",
+      "ch9": "Kap. 9 · Meuterei",
+      "ch10": "Kap. 10 · Heimkehr"
+    }
+  },
+  "playPreview": {
+    "title": "Ein Blick auf das Spiel",
+    "lede": "— Lies, wähle und lebe mit den Folgen —",
+    "day": "— TAG 1 AUF DRIFT —",
+    "narrative": "Die Wellen schleudern dich an ein unbekanntes Ufer. Draußen zwischen den Riffen treibt das Wrack deines Schiffes immer wieder ins Blickfeld, während Gewitterwolken aufziehen. Du bist durchnässt – aber lebendig.",
+    "options": {
+      "risky": {
+        "label": "Bei Ebbe zum Wrack schwimmen und Vorräte bergen",
+        "cost": "Ausdauer −20 · Mögliche Werkzeuge und Lebensmittel"
+      },
+      "safe": {
+        "label": "Suche die Küste nach frischem Wasser und Nahrung ab",
+        "cost": "Ausdauer −10 · Der stetige Weg"
+      },
+      "danger": {
+        "label": "Gehe direkt in den Dschungel, um einen Ausweg zu finden",
+        "cost": "Ausdauer −30 · Unbekannte Gefahren"
+      }
+    }
+  },
+  "languages": {
+    "title": "Verfügbar in 13 Sprachen",
+    "lede": "– Lies dein Abenteuer in deinen eigenen Worten –"
+  },
+  "finalCta": {
+    "title": "Deine Insel wartet",
+    "body": "Lade das Spiel kostenlos herunter und beginne dein Tagebuch als Schiffbrüchiger.",
+    "renderStores": true
+  },
+  "footer": {
+    "privacy": "Datenschutzrichtlinie"
+  },
+  "notFound": {
+    "title": "Diese Seite ist an anderer Stelle gestrandet.",
+    "body": "Die von Ihnen angeforderte Seite konnte nicht gefunden werden.",
+    "homeLink": "Zurück zur Startseite",
+    "languageLink": "In traditionellem Chinesisch lesen"
+  },
+  "privacy": {
+    "title": "Datenschutzrichtlinie",
+    "metaDescription": "Datenschutzrichtlinie für Robinson Crusoe: The Castaway's Journal – Ihr Spielfortschritt bleibt auf Ihrem Gerät; Optionale belohnte Anzeigen werden von einem Drittanbieter für Werbung bereitgestellt.",
+    "backLabel": "Zurück zur Startseite",
+    "lastUpdatedLabel": "Letzte Aktualisierung",
+    "intro": "Kurz gesagt: Wir betreiben keine Server und speichern keine persönlichen Daten über Sie. Ihr Spielfortschritt bleibt auf Ihrem Gerät. Das Spiel ist kostenlos und wird durch optionale belohnte Werbung unterstützt, die Sie sich ansehen möchten – und der Werbeanbieter, der diese Anzeigen liefert, erfasst Geräte- und Werbekennungen im Rahmen seiner eigenen Datenschutzrichtlinie. Die Details finden Sie weiter unten.",
+    "sections": [
+      {
+        "heading": "1. Wen diese Police abdeckt",
+        "paragraphs": [
+          "Diese Richtlinie gilt für das Handyspiel Robinson Crusoe: The Castaway's Journal (Android-Paketkennung com.austronesiatw.robinsoncrusoe) und für diese Website, auf der das Spiel präsentiert wird.",
+          "In dieser Richtlinie bezeichnet „die App“ das Handyspiel und „die Website“ diese Website."
+        ]
+      },
+      {
+        "heading": "2. Informationen, die wir nicht sammeln",
+        "paragraphs": [
+          "Wir betreiben keinen Server und die App sendet nichts an uns. Insbesondere sammelt die App niemals:"
+        ],
+        "bullets": [
+          "Namen, E-Mail-Adressen, Telefonnummern oder andere Kontaktdaten",
+          "Benutzerkonten, Logins oder Passwörter – das Spiel hat kein Kontosystem",
+          "Genaue Standorte, Kontakte, Fotos, Kamera, Mikrofon, Kalender oder Dateien auf Ihrem Gerät",
+          "Zahlungs- oder Finanzinformationen – das Spiel ist kostenlos und beinhaltet keine In-App-Käufe",
+          "Ihr gespeichertes Spiel oder Reiseprotokoll – diese verlassen niemals Ihr Gerät."
+        ]
+      },
+      {
+        "heading": "3. Auf Ihrem Gerät gespeicherte Daten",
+        "paragraphs": [
+          "Die App speichert Ihren Fortschritt lokal, sodass Sie das Spiel schließen und später fortfahren können. Diese Daten werden in den privaten Anwendungsspeicher Ihres Geräts geschrieben. Es wird niemals hochgeladen und ist weder für uns noch für den Werbeanbieter lesbar.",
+          "Drei Informationen werden gespeichert:"
+        ],
+        "bullets": [
+          "Gespeichertes Spiel: Ihr aktuelles Kapitel, Ausdauer, Ressourcen, Rucksackinhalte und die Entscheidungen, die Sie im aktuellen Lauf getroffen haben.",
+          "Reiseprotokoll: eine Aufzeichnung der abgeschlossenen Läufe – Punktzahl, Note, Ende, Dauer, abgeschlossene Kapitel und endgültige Ressourcen.",
+          "Einstellungen: Ihre Einstellungen, wie z. B. die Sprache der Benutzeroberfläche und ob Hinweise im Spiel vorhanden sind angezeigt"
+        ]
+      },
+      {
+        "heading": "4. Belohnte Werbung",
+        "paragraphs": [
+          "Das Spiel ist kostenlos und wird durch belohnte Werbung finanziert. Werbung wird Ihnen niemals aufgezwungen und unterbricht niemals die Geschichte: Eine Werbung wird nur dann abgespielt, wenn Sie sich aktiv dafür entscheiden, sie im Austausch für einen Vorteil im Spiel anzusehen – derzeit zum Wiederaufleben nach einem Spielende und zur Wiederherstellung zusätzlicher Ausdauer. Es gibt keine Bannerwerbung und keine Interstitial-Werbung. Sie können das gesamte Spiel beenden, ohne eine einzige Werbung anzusehen.",
+          "Prämienanzeigen werden von {adProvider}, einem Drittanbieter-Werbedienst, bereitgestellt. Um eine Anzeige auszuwählen und anzuzeigen und um Betrug zu verhindern, kann dieser Anbieter Folgendes erfassen und verarbeiten:"
+        ],
+        "bullets": [
+          "Die Werbekennung Ihres Geräts – eine zurücksetzbare ID, die zur Begrenzung wiederholter Anzeigen und zur Messung der Anzeigenleistung verwendet wird.",
+          "Ihre IP-Adresse, aus der ein ungefährer Standort auf Stadtebene abgeleitet werden kann.",
+          "Geräte- und Systeminformationen wie Modell, Betriebssystemversion, Sprache, Zeitzone und Bildschirmeigenschaften.",
+          "Anzeige Interaktionsdaten, beispielsweise ob eine Anzeige angefordert, angezeigt, vollständig angesehen oder angeklickt wurde"
+        ]
+      },
+      {
+        "heading": "5. Was wir erhalten und was wir niemals tun",
+        "paragraphs": [
+          "Die Daten im vorherigen Abschnitt werden vom Werbeanbieter im Rahmen seiner eigenen Datenschutzrichtlinie erfasst – wir erhalten sie nicht in einer Form, die Sie identifiziert. Was uns erreicht, sind lediglich aggregierte Berichte: wie viele Anzeigen geschaltet wurden und wie viel Umsatz erzielt wurde. Wir können das nicht auf einen einzelnen Spieler zurückführen.",
+          "Wir verkaufen Ihre personenbezogenen Daten nicht und geben sie nicht an Datenbroker weiter. Wir kombinieren keine Werbedaten mit Ihrem gespeicherten Spiel oder Reiseprotokoll, diese verbleiben auf Ihrem Gerät und werden niemals übertragen.",
+          "Der Werbeanbieter verarbeitet die oben beschriebenen Daten als unabhängiger Verantwortlicher. Ihre eigene Richtlinie regelt diese Verarbeitung:"
+        ],
+        "link": {
+          "label": "{adProvider} Datenschutzrichtlinie",
+          "url": "{adProviderPrivacyUrl}"
+        }
+      },
+      {
+        "heading": "6. Einwilligung und Ihre Werbeoptionen",
+        "paragraphs": [
+          "Wenn Sie sich im Europäischen Wirtschaftsraum, im Vereinigten Königreich oder in der Schweiz befinden, bittet die App Sie um Ihre Einwilligung, bevor personalisierte Werbung verwendet wird, und zwar über einen vom Werbedienst bereitgestellten Einwilligungsdialog. Sie können ablehnen. Das Spiel bleibt vollständig spielbar und belohnte Anzeigen funktionieren weiterhin – sie sind lediglich nicht personalisiert, das heißt, sie werden nicht auf der Grundlage eines Profils Ihrer Interessen ausgewählt. Sie können Ihre Auswahl jederzeit in den Spieleinstellungen ändern oder widerrufen.",
+          "Unter iOS muss die App Ihre Erlaubnis einholen, bevor sie die Werbekennung des Geräts zum Tracking verwenden kann. Wenn Sie dies ablehnen, ist diese Kennung für den Werbeanbieter nicht verfügbar.",
+          "Unabhängig von der App können Sie die Werbe-ID auf Systemebene steuern:"
+        ],
+        "bullets": [
+          "Android: Einstellungen, dann Datenschutz, dann Werbung – Sie können die Werbe-ID zurücksetzen oder vollständig löschen",
+          "iOS: Einstellungen, dann Datenschutz und Sicherheit, dann Tracking – Sie können Tracking-Anfragen für alle Apps ausschalten",
+          "Sie können auch einfach keine belohnten Anzeigen ansehen; Sie sind völlig optional"
+        ]
+      },
+      {
+        "heading": "7. Netzwerkzugriff",
+        "paragraphs": [
+          "Alle Story-Texte, Übersetzungen, Bilder und Spieldaten werden in der App gebündelt und aus dem lokalen Speicher geladen. Die App lädt keine Spielinhalte herunter und kontaktiert keinen von uns betriebenen Server – wir betreiben keinen.",
+          "Der einzige ausgehende Netzwerkverkehr der App geht an den Werbeanbieter und erfolgt in Verbindung mit belohnten Anzeigen."
+        ]
+      },
+      {
+        "heading": "8. Löschen Ihrer Daten",
+        "paragraphs": [
+          "Durch die Deinstallation der App werden das gespeicherte Spiel, das Reiseprotokoll und Ihre Einstellungen dauerhaft von Ihrem Gerät gelöscht. Das Löschen des App-Speichers über die Systemeinstellungen Ihres Geräts hat den gleichen Effekt. Wir behalten keine serverseitige Kopie zum Löschen vor, da nie eine erstellt wird.",
+          "Um die vom Werbeanbieter gespeicherte Werbekennung zu löschen oder zurückzusetzen, verwenden Sie die in Abschnitt 6 aufgeführten Kontrollen auf Systemebene oder kontaktieren Sie diesen Anbieter direkt über die in Abschnitt 5 verlinkte Richtlinie."
+        ]
+      },
+      {
+        "heading": "9. Diese Website",
+        "paragraphs": [
+          "Die Website verwendet keine Cookies, keine Analysen, keine Tracking-Pixel, keine Werbung und keine Skripte von Drittanbietern. Nichts, was Sie hier tun, wird von uns aufgezeichnet.",
+          "Die Website wird über GitHub Pages bereitgestellt. Wie bei jedem Webhost können die Server von GitHub technische Anfrageinformationen wie Ihre IP-Adresse und Ihren Browser-Benutzeragenten aufzeichnen, um die Seite bereitzustellen und den Dienst zu schützen. Diese Verarbeitung unterliegt der eigenen Datenschutzerklärung von GitHub."
+        ]
+      },
+      {
+        "heading": "10. Privatsphäre von Kindern",
+        "paragraphs": [
+          "Die App richtet sich an ein allgemeines Publikum und richtet sich nicht an Kinder unter 13 Jahren. Wir erfassen wissentlich keine personenbezogenen Daten von Kindern.",
+          "Wenn die App an eine Zielgruppe verteilt wird, zu der auch Kinder gehören können, ist der Werbeanbieter so konfiguriert, dass er nur nicht personalisierte, an Kinder gerichtete Werbung liefert, und die Werbekennung wird nicht zur Erstellung eines Interessenprofils verwendet.",
+          "Wenn Sie glauben, dass ein Kind über die App personenbezogene Daten bereitgestellt hat, kontaktieren Sie uns bitte und wir werden entsprechend handeln."
+        ]
+      },
+      {
+        "heading": "11. Ihre Rechte",
+        "paragraphs": [
+          "Datenschutzgesetze wie die DSGVO und der CCPA geben Ihnen das Recht, auf die über Sie gespeicherten personenbezogenen Daten zuzugreifen, diese zu korrigieren, zu exportieren oder zu löschen, Ihre Einwilligung zu widerrufen und dem Verkauf oder der Weitergabe Ihrer Daten zu widersprechen.",
+          "Wir verfügen über keine personenbezogenen Daten über Sie, daher haben wir nichts offenzulegen, zu korrigieren oder zu exportieren, und wir haben niemals personenbezogene Daten verkauft oder weitergegeben. Die in Abschnitt 3 beschriebenen Daten verbleiben auf Ihrem Gerät und unterliegen vollständig Ihrer Kontrolle.",
+          "Für die in Ziffer 4 beschriebenen Werbedaten ist der Werbeanbieter der Verantwortliche. Machen Sie Ihre Rechte gegenüber diesem Anbieter geltend, indem Sie die in Abschnitt 5 verlinkte Richtlinie nutzen oder die Einwilligung jederzeit in den Spieleinstellungen widerrufen. Wenn Sie uns zunächst kontaktieren, zeigen wir Ihnen den richtigen Weg."
+        ]
+      },
+      {
+        "heading": "12. Änderungen an dieser Richtlinie",
+        "paragraphs": [
+          "Wenn sich die Datenpraktiken der App ändern, wird diese Richtlinie aktualisiert, bevor die Änderung die Benutzer erreicht, und das Datum oben auf dieser Seite wird überarbeitet."
+        ]
+      },
+      {
+        "heading": "13. Kontakt",
+        "paragraphs": [
+          "Wenn Sie Fragen zu dieser Richtlinie haben, kontaktieren Sie uns bitte unter der unten angegebenen Adresse.",
+          "Kontakt: {email}"
+        ]
+      }
+    ]
+  }
+}

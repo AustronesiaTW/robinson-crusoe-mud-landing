@@ -1,0 +1,243 @@
+{
+  "typography": {
+    "fontFamily": "Georgia, 'Times New Roman', serif",
+    "heroTitleLetterSpacing": "1px",
+    "sectionHeadingLetterSpacing": "2px",
+    "ledeFontStyle": "italic"
+  },
+  "meta": {
+    "title": "Robinson Crusoe: Il diario del naufrago | Gioco di sopravvivenza e avventura testuale",
+    "description": "Sopravvivi sull'isola, una scelta alla volta. Un gioco di sopravvivenza avventuroso testuale con una storia di 10 capitoli, creazione, eventi casuali e valutazioni di viaggio, in 13 lingue.",
+    "ogTitle": "Robinson Crusoe: il diario del naufrago",
+    "ogDescription": "Sopravvivi sull'isola, una scelta alla volta. Un gioco di sopravvivenza avventuroso testuale in 10 capitoli.",
+    "ogLocale": "it_IT"
+  },
+  "header": {
+    "brand": "Il diario del naufrago",
+    "languageSwitchLabel": "Lingua"
+  },
+  "hero": {
+    "title": "Robinson Crusoe: Il diario del naufrago",
+    "tagline": "Sopravvivi sull'isola, una scelta alla volta.",
+    "sub": "Un gioco di sopravvivenza avventuroso testuale suddiviso in dieci capitoli. Ogni scelta è scritta nel tuo diario.",
+    "imageAlt": "Copertina di Robinson Crusoe: The Castaway's Journal"
+  },
+  "stores": {
+    "appStore": {
+      "aria": "Scarica dall'App Store",
+      "small": "Scarica dall’",
+      "big": "App Store"
+    },
+    "googlePlay": {
+      "aria": "Scaricalo da Google Play",
+      "small": "Scaricalo da",
+      "big": "Google Play"
+    }
+  },
+  "features": {
+    "title": "Caratteristiche",
+    "lede": "— Il tuo viaggio si svolge su pagine di pergamena —",
+    "items": {
+      "story": {
+        "title": "Una storia in dieci capitoli",
+        "body": "Ispirata al romanzo classico: dal naufragio al salvataggio, dieci capitoli e dozzine di scelte danno forma alla tua storia di sopravvivenza."
+      },
+      "crafting": {
+        "title": "Zaino e creazione",
+        "body": "Recupera le scorte, raccogli i materiali dell'isola e crea gli strumenti di cui hai bisogno. Qualsiasi oggetto potrebbe essere quello che ti mantiene in vita."
+      },
+      "events": {
+        "title": "Eventi casuali",
+        "body": "Tempeste, bestie feroci, ospiti non invitati: non esistono due viaggi uguali. La stessa scelta può portare a un destino molto diverso."
+      },
+      "ratings": {
+        "title": "Valutazione del viaggio",
+        "body": "Ottieni una valutazione da S a F con una recensione scritta della tua partita. Sfoglia il diario di viaggio e insegui la fuga perfetta."
+      }
+    }
+  },
+  "chapters": {
+    "title": "Scorci dei capitoli",
+    "lede": "— Dieci capitoli, dieci viaggi —",
+    "altPattern": "Illustrazione del capitolo {number}",
+    "items": {
+      "ch1": "Cap. 1 · Naufragio",
+      "ch2": "Cap. 2 · Recupero",
+      "ch3": "Cap. 3 · Rifugio",
+      "ch4": "Cap. 4 · Esplorazione",
+      "ch5": "Cap. 5 · Autosufficienza",
+      "ch6": "Cap. 6 · La sponda lontana",
+      "ch7": "Cap. 7 · L'impronta",
+      "ch8": "Cap. 8 · Venerdì",
+      "ch9": "Cap. 9 · Ammutinamento",
+      "ch10": "Cap. 10 · Ritorno a casa"
+    }
+  },
+  "playPreview": {
+    "title": "Uno sguardo al gioco",
+    "lede": "— Leggi, scegli e affronta le conseguenze —",
+    "day": "— GIORNO 1 ALLA DERIVA —",
+    "narrative": "Le onde ti scagliano su una spiaggia sconosciuta. Tra le barriere coralline, il relitto della tua nave fluttua dentro e fuori dalla vista mentre si accumulano nuvole temporalesche. Sei fradicio, ma vivo.",
+    "options": {
+      "risky": {
+        "label": "Nuota fino al relitto con la bassa marea e recupera i rifornimenti",
+        "cost": "Resistenza −20 · Possibili strumenti e cibo"
+      },
+      "safe": {
+        "label": "Cerca acqua dolce e cibo lungo la costa",
+        "cost": "Resistenza −10 · Il percorso sicuro"
+      },
+      "danger": {
+        "label": "Dirigiti dritto nella giungla per trovare una via d'uscita",
+        "cost": "Resistenza −30 · Pericoli sconosciuti"
+      }
+    }
+  },
+  "languages": {
+    "title": "Disponibile in 13 lingue",
+    "lede": "— Leggi la tua avventura con parole tue —"
+  },
+  "finalCta": {
+    "title": "La tua isola ti sta aspettando",
+    "body": "Scaricalo gratuitamente e inizia il diario del tuo naufrago.",
+    "renderStores": true
+  },
+  "footer": {
+    "privacy": "Informativa sulla privacy"
+  },
+  "notFound": {
+    "title": "Questa pagina è stata ritrovata altrove",
+    "body": "La pagina richiesta non è stata trovata.",
+    "homeLink": "Torna alla home page",
+    "languageLink": "Leggi in cinese tradizionale"
+  },
+  "privacy": {
+    "title": "Informativa sulla privacy",
+    "metaDescription": "Informativa sulla privacy per Robinson Crusoe: The Castaway's Journal: i tuoi progressi di gioco rimangono sul tuo dispositivo; gli annunci con premio opzionali vengono forniti da un fornitore di pubblicità di terze parti.",
+    "backLabel": "Torna alla home",
+    "lastUpdatedLabel": "Ultimo aggiornamento",
+    "intro": "In breve: non gestiamo server e non conserviamo dati personali su di te. I tuoi progressi di gioco rimangono sul tuo dispositivo. Il gioco è gratuito ed è supportato da annunci con premio opzionali che scegli di guardare e il fornitore di pubblicità che fornisce tali annunci raccoglie identificatori di dispositivo e pubblicità in base alla propria politica sulla privacy. I dettagli sono riportati di seguito.",
+    "sections": [
+      {
+        "heading": "1. Chi copre questa polizza",
+        "paragraphs": [
+          "Questa politica si applica al gioco per cellulare Robinson Crusoe: The Castaway's Journal (identificatore del pacchetto Android com.austronesiatw.robinsoncrusoe) e a questo sito web, che presenta il gioco.",
+          "In questa politica, \"l'app\" indica il gioco per cellulare e \"il sito\" indica questo sito web."
+        ]
+      },
+      {
+        "heading": "2. Informazioni che non raccogliamo",
+        "paragraphs": [
+          "Non gestiamo alcun server e l'app non ci invia nulla. Nello specifico, l'app non raccoglie mai:"
+        ],
+        "bullets": [
+          "Nomi, indirizzi e-mail, numeri di telefono o altri dettagli di contatto",
+          "Account utente, accessi o password: il gioco non ha un sistema di account",
+          "Posizione precisa, contatti, foto, fotocamera, microfono, calendario o file sul dispositivo",
+          "Informazioni finanziarie o di pagamento: il gioco è gratuito e non contiene acquisti in-app",
+          "Il tuo gioco salvato o registro di viaggio: non lasciano mai il tuo dispositivo"
+        ]
+      },
+      {
+        "heading": "3. Dati memorizzati sul tuo dispositivo",
+        "paragraphs": [
+          "L'app salva i tuoi progressi localmente in modo da poter chiudere il gioco e continuare in seguito. Questi dati vengono scritti nella memoria privata dell'applicazione del tuo dispositivo. Non viene mai caricato e non è leggibile né da noi né dal fornitore della pubblicità.",
+          "Vengono memorizzate tre informazioni:"
+        ],
+        "bullets": [
+          "Partita salvata: il capitolo corrente, resistenza, risorse, contenuto dello zaino e le scelte effettuate nella corsa corrente",
+          "Registro di viaggio: un registro delle corse completate: punteggio, voto, fine, durata, capitoli completati e risorse finali",
+          "Impostazioni: le tue preferenze, come la lingua dell'interfaccia e se vengono visualizzati i suggerimenti di gioco"
+        ]
+      },
+      {
+        "heading": "4. Pubblicità con premi",
+        "paragraphs": [
+          "Il gioco è gratuito ed è finanziato dalla pubblicità con premi. Gli annunci pubblicitari non ti vengono mai imposti e non interrompono mai la storia: un annuncio viene riprodotto solo quando scegli attivamente di guardarne uno in cambio di un vantaggio di gioco - attualmente, si rianima dopo la fine del gioco e ripristina la resistenza extra. Non sono presenti banner pubblicitari né annunci interstitial. Puoi finire l'intero gioco senza guardare un singolo annuncio.",
+          "Gli annunci con premio vengono forniti da {adProvider}, un servizio pubblicitario di terze parti. Per selezionare e visualizzare un annuncio e prevenire frodi, il fornitore può raccogliere ed elaborare:"
+        ],
+        "bullets": [
+          "L'identificatore pubblicitario del tuo dispositivo: un ID reimpostabile utilizzato per limitare gli annunci ripetuti e misurare il rendimento degli annunci",
+          "Il tuo indirizzo IP, da cui è possibile ricavare una posizione approssimativa a livello di città",
+          "Informazioni sul dispositivo e sul sistema come modello, versione del sistema operativo, lingua, fuso orario e caratteristiche dello schermo",
+          "Dati di interazione con gli annunci come ad esempio se un annuncio è stato richiesto, mostrato, guardato fino alla fine o cliccato"
+        ]
+      },
+      {
+        "heading": "5. Cosa riceviamo e cosa non facciamo mai",
+        "paragraphs": [
+          "I dati nella sezione precedente vengono raccolti dal fornitore di pubblicità in base alla propria politica sulla privacy: non li riceviamo in una forma che ti identifichi. Ciò che ci arriva sono solo i report aggregati: quanti annunci sono stati mostrati e quante entrate sono state guadagnate. Non possiamo collegarlo a nessun singolo giocatore.",
+          "Non vendiamo i tuoi dati personali e non li condividiamo con broker di dati. Non combiniamo dati pubblicitari con il gioco salvato o il registro di viaggio, che rimangono sul tuo dispositivo e non vengono mai trasmessi.",
+          "Il fornitore della pubblicità tratta i dati sopra descritti in qualità di titolare autonomo del trattamento. La sua stessa policy regola tale trattamento:"
+        ],
+        "link": {
+          "label": "Informativa sulla privacy di {adProvider}",
+          "url": "{adProviderPrivacyUrl}"
+        }
+      },
+      {
+        "heading": "6. Consenso e le tue scelte pubblicitarie",
+        "paragraphs": [
+          "Se ti trovi nello Spazio Economico Europeo, nel Regno Unito o in Svizzera, l'app richiede il tuo consenso prima di utilizzare la pubblicità personalizzata, attraverso una finestra di dialogo di consenso fornita dal servizio pubblicitario. Potresti rifiutare. Il gioco rimane completamente giocabile e gli annunci con premio continuano a funzionare: saranno semplicemente non personalizzati, ovvero non verranno selezionati in base a un profilo dei tuoi interessi. Puoi modificare o ritirare la tua scelta in qualsiasi momento nelle impostazioni del gioco.",
+          "Su iOS, l'app deve chiedere la tua autorizzazione prima di poter utilizzare l'identificatore pubblicitario del dispositivo per il monitoraggio. Se rifiuti, tale identificatore non sarà disponibile per il fornitore di pubblicità.",
+          "Indipendentemente dall'app, puoi controllare l'identificatore della pubblicità a livello di sistema:"
+        ],
+        "bullets": [
+          "Android: Impostazioni, poi Privacy, poi Annunci: puoi reimpostare l'ID pubblicità o eliminarlo completamente",
+          "iOS: Impostazioni, poi Privacy e sicurezza, poi Tracciamento: puoi disattivare le richieste di tracciamento per tutte le app",
+          "Puoi anche semplicemente non guardare gli annunci con premio; sono del tutto facoltativi"
+        ]
+      },
+      {
+        "heading": "7. Accesso alla rete",
+        "paragraphs": [
+          "Tutto il testo della storia, le traduzioni, le immagini e i dati di gioco sono raggruppati all'interno dell'app e caricati dalla memoria locale. L'app non scarica contenuti di gioco e non contatta alcun server gestito da noi: non ne gestiamo nessuno.",
+          "L'unico traffico di rete in uscita dell'app è verso il fornitore di pubblicità e avviene in relazione agli annunci con premio."
+        ]
+      },
+      {
+        "heading": "8. Cancellazione dei tuoi dati",
+        "paragraphs": [
+          "La disinstallazione dell'app elimina definitivamente il gioco salvato, il registro di viaggio e le impostazioni dal tuo dispositivo. Cancellare lo spazio di archiviazione dell'app tramite le impostazioni di sistema del dispositivo ha lo stesso effetto. Non conserviamo alcuna copia lato server da eliminare, poiché non ne viene mai creata alcuna.",
+          "Per cancellare o reimpostare l'identificatore pubblicitario detenuto dal fornitore di pubblicità, utilizzare i controlli a livello di sistema elencati nella sezione 6 o contattare direttamente il fornitore utilizzando la politica collegata nella sezione 5."
+        ]
+      },
+      {
+        "heading": "9. Questo sito web",
+        "paragraphs": [
+          "Il sito non utilizza cookie, analisi, pixel di tracciamento, pubblicità e script di terze parti. Niente di ciò che fai qui viene registrato da noi.",
+          "Il sito è servito tramite GitHub Pages. Come con qualsiasi host web, i server di GitHub possono registrare informazioni sulle richieste tecniche come il tuo indirizzo IP e lo user agent del browser al fine di fornire la pagina e proteggere il servizio. Tale trattamento è regolato dall'informativa sulla privacy di GitHub."
+        ]
+      },
+      {
+        "heading": "10. Privacy dei bambini",
+        "paragraphs": [
+          "L'app è destinata a un pubblico generale e non è rivolta ai bambini di età inferiore a 13 anni. Non raccogliamo consapevolmente informazioni personali dei bambini.",
+          "Se l'app viene distribuita a un pubblico che può includere bambini, il fornitore di pubblicità è configurato per offrire solo pubblicità non personalizzata, rivolta ai bambini e l'identificatore pubblicitario non viene utilizzato per creare un profilo di interessi.",
+          "Se ritieni che un bambino abbia fornito informazioni personali tramite l'app, contattaci e agiremo di conseguenza."
+        ]
+      },
+      {
+        "heading": "11. I tuoi diritti",
+        "paragraphs": [
+          "Le leggi sulla privacy come il GDPR e il CCPA ti danno il diritto di accedere, correggere, esportare o eliminare i dati personali conservati su di te, di revocare il consenso e di opporti alla vendita o alla condivisione dei tuoi dati.",
+          "Non conserviamo dati personali su di te, quindi non abbiamo nulla da divulgare, correggere o esportare e non abbiamo mai venduto o condiviso informazioni personali. I dati descritti nella sezione 3 rimangono sul tuo dispositivo e rimangono interamente sotto il tuo controllo.",
+          "Per i dati pubblicitari descritti al punto 4 il titolare del trattamento è il fornitore della pubblicità. Esercita i tuoi diritti contro quel fornitore utilizzando la politica collegata nella sezione 5 o revoca il consenso nelle impostazioni del gioco in qualsiasi momento. Se ci contatti prima ti indicheremo il percorso giusto."
+        ]
+      },
+      {
+        "heading": "12. Modifiche a queste norme",
+        "paragraphs": [
+          "Se le pratiche relative ai dati dell'app cambiano, queste norme verranno aggiornate prima che la modifica raggiunga gli utenti e la data nella parte superiore di questa pagina verrà modificata."
+        ]
+      },
+      {
+        "heading": "13. Contatto",
+        "paragraphs": [
+          "In caso di domande su questa politica, contattaci all'indirizzo riportato di seguito.",
+          "Contatto: {email}"
+        ]
+      }
+    ]
+  }
+}

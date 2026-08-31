@@ -1,0 +1,243 @@
+{
+  "typography": {
+    "fontFamily": "Georgia, 'Times New Roman', serif",
+    "heroTitleLetterSpacing": "1px",
+    "sectionHeadingLetterSpacing": "2px",
+    "ledeFontStyle": "italic"
+  },
+  "meta": {
+    "title": "Robinson Crusoe: Nhật ký người sống sót | Trò chơi sinh tồn phiêu lưu bằng văn bản",
+    "description": "Sống sót trên hòn đảo, mỗi lần một lựa chọn. Một trò chơi sinh tồn phiêu lưu văn bản với câu chuyện 10 chương, chế tạo, sự kiện ngẫu nhiên và xếp hạng chuyến đi — bằng 13 ngôn ngữ.",
+    "ogTitle": "Robinson Crusoe: Nhật ký người sống sót",
+    "ogDescription": "Sống sót trên đảo, từng lựa chọn một. Trò chơi sinh tồn phiêu lưu bằng văn bản gồm 10 chương.",
+    "ogLocale": "vi_VN"
+  },
+  "header": {
+    "brand": "Nhật ký người sống sót",
+    "languageSwitchLabel": "Ngôn ngữ"
+  },
+  "hero": {
+    "title": "Robinson Crusoe: Nhật ký người sống sót",
+    "tagline": "Sống sót trên đảo, từng lựa chọn một.",
+    "sub": "Trò chơi sinh tồn phiêu lưu bằng văn bản gồm mười chương. Mọi lựa chọn đều được ghi vào nhật ký của bạn.",
+    "imageAlt": "Ảnh bìa Robinson Crusoe: Nhật ký người sống sót"
+  },
+  "stores": {
+    "appStore": {
+      "aria": "Tải xuống trên App Store",
+      "small": "Tải xuống trên",
+      "big": "App Store"
+    },
+    "googlePlay": {
+      "aria": "Tải xuống trên Google Play",
+      "small": "Tải xuống trên",
+      "big": "Google Play"
+    }
+  },
+  "features": {
+    "title": "Tính năng",
+    "lede": "— Chuyến hành trình của bạn diễn ra trên những trang giấy da —",
+    "items": {
+      "story": {
+        "title": "Câu chuyện mười chương",
+        "body": "Lấy cảm hứng từ cuốn tiểu thuyết kinh điển — từ vụ đắm tàu ​​đến cuộc giải cứu, mười chương và hàng tá lựa chọn sẽ định hình câu chuyện sinh tồn của riêng bạn."
+      },
+      "crafting": {
+        "title": "Ba lô và chế tạo",
+        "body": "Thu thập nguồn cung cấp, thu thập nguyên liệu trên đảo và chế tạo các công cụ bạn cần. Bất kỳ vật phẩm nào cũng có thể là thứ giúp bạn sống sót."
+      },
+      "events": {
+        "title": "Sự kiện ngẫu nhiên",
+        "body": "Bão tố, dã thú, khách không mời - không có chuyến đi nào giống nhau. Cùng một sự lựa chọn có thể dẫn đến một số phận rất khác nhau."
+      },
+      "ratings": {
+        "title": "Xếp hạng hành trình",
+        "body": "Nhận xếp hạng từ S đến F kèm bài đánh giá về hành trình của bạn. Xem lại nhật ký và hướng tới cuộc trốn thoát hoàn hảo."
+      }
+    }
+  },
+  "chapters": {
+    "title": "Lướt qua các chương",
+    "lede": "— Mười chương, mười hành trình —",
+    "altPattern": "Minh họa chương {number}",
+    "items": {
+      "ch1": "Chương 1 · Đắm tàu",
+      "ch2": "Chương 2 · Thu hồi vật tư",
+      "ch3": "Chương 3 · Nơi trú ẩn",
+      "ch4": "Chương 4 · Khám phá",
+      "ch5": "Chương 5 · Tự lực",
+      "ch6": "Chương 6 · Bờ biển xa",
+      "ch7": "Chương 7 · Dấu chân",
+      "ch8": "Chương 8 · Thứ Sáu",
+      "ch9": "Chương 9 · Cuộc nổi loạn",
+      "ch10": "Chương 10 · Trở về"
+    }
+  },
+  "playPreview": {
+    "title": "Một thoáng gameplay",
+    "lede": "— Đọc, lựa chọn và sống với hệ quả —",
+    "day": "— NGÀY 1 TRÔI DẠT —",
+    "narrative": "Sóng đánh bạn dạt vào một bờ biển xa lạ. Giữa các rạn san hô, xác tàu lúc ẩn lúc hiện khi mây bão tụ lại. Bạn ướt sũng — nhưng còn sống.",
+    "options": {
+      "risky": {
+        "label": "Bơi đến xác tàu khi thủy triều xuống và cứu hộ vật dụng",
+        "cost": "Thể lực −20 · Công cụ và thực phẩm có thể"
+      },
+      "safe": {
+        "label": "Tìm kiếm nước ngọt và thức ăn dọc bờ biển",
+        "cost": "Thể lực −10 · Con đường vững chắc"
+      },
+      "danger": {
+        "label": "Đi thẳng vào rừng tìm lối thoát",
+        "cost": "Thể lực −30 · Nguy hiểm chưa biết"
+      }
+    }
+  },
+  "languages": {
+    "title": "Có sẵn bằng 13 ngôn ngữ",
+    "lede": "— Đọc cuộc phiêu lưu bằng ngôn ngữ của bạn —"
+  },
+  "finalCta": {
+    "title": "Hòn đảo của bạn đang chờ",
+    "body": "Tải xuống miễn phí và bắt đầu nhật ký của người sống sót.",
+    "renderStores": true
+  },
+  "footer": {
+    "privacy": "Chính sách bảo mật"
+  },
+  "notFound": {
+    "title": "Trang này đã dạt vào bờ nơi khác",
+    "body": "Không thể tìm thấy trang bạn yêu cầu.",
+    "homeLink": "Quay lại trang chủ",
+    "languageLink": "Đọc bằng tiếng Trung phồn thể"
+  },
+  "privacy": {
+    "title": "Chính sách bảo mật",
+    "metaDescription": "Chính sách quyền riêng tư dành cho Robinson Crusoe: The Castaway's Journal — tiến trình trò chơi của bạn vẫn được lưu trên thiết bị của bạn; quảng cáo có tặng thưởng tùy chọn được phân phối bởi nhà cung cấp quảng cáo bên thứ ba.",
+    "backLabel": "Trở về nhà",
+    "lastUpdatedLabel": "Cập nhật lần cuối",
+    "intro": "Tóm lại: chúng tôi không chạy máy chủ và không lưu giữ dữ liệu cá nhân về bạn. Tiến trình trò chơi của bạn vẫn còn trên thiết bị của bạn. Trò chơi này miễn phí và được hỗ trợ bởi các quảng cáo có tặng thưởng tùy chọn mà bạn chọn xem — đồng thời nhà cung cấp quảng cáo phân phối những quảng cáo đó sẽ thu thập số nhận dạng thiết bị và quảng cáo theo chính sách quyền riêng tư của riêng họ. Các chi tiết dưới đây.",
+    "sections": [
+      {
+        "heading": "1. Chính sách này áp dụng cho ai",
+        "paragraphs": [
+          "Chính sách này áp dụng cho trò chơi di động Robinson Crusoe: The Castaway's Journal (mã định danh gói Android com.austronesiatw.robinsoncrusoe) và cho trang web giới thiệu trò chơi này.",
+          "Trong chính sách này, “ứng dụng” có nghĩa là trò chơi di động và “trang web” có nghĩa là trang web này."
+        ]
+      },
+      {
+        "heading": "2. Thông tin chúng tôi không thu thập",
+        "paragraphs": [
+          "Chúng tôi không vận hành bất kỳ máy chủ nào và ứng dụng không gửi gì cho chúng tôi. Cụ thể, ứng dụng không bao giờ thu thập:"
+        ],
+        "bullets": [
+          "Tên, địa chỉ email, số điện thoại hoặc bất kỳ chi tiết liên hệ nào khác",
+          "Tài khoản người dùng, thông tin đăng nhập hoặc mật khẩu - trò chơi không có hệ thống tài khoản",
+          "Vị trí, danh bạ, ảnh, máy ảnh, micrô, lịch hoặc tệp chính xác trên thiết bị của bạn",
+          "Thông tin thanh toán hoặc tài chính - trò chơi miễn phí và không chứa mua hàng trong ứng dụng",
+          "Nhật ký hành trình hoặc trò chơi đã lưu của bạn — những thứ này sẽ không bao giờ rời khỏi thiết bị của bạn"
+        ]
+      },
+      {
+        "heading": "3. Dữ liệu được lưu trữ trên thiết bị của bạn",
+        "paragraphs": [
+          "Ứng dụng lưu tiến trình của bạn cục bộ để bạn có thể đóng trò chơi và tiếp tục sau. Dữ liệu này được ghi vào bộ lưu trữ ứng dụng riêng tư trên thiết bị của bạn. Nó không bao giờ được tải lên và chúng tôi hoặc nhà cung cấp quảng cáo không thể đọc được.",
+          "Ba mẩu thông tin được lưu trữ:"
+        ],
+        "bullets": [
+          "Trò chơi đã lưu: chương hiện tại, thể lực, tài nguyên, nội dung trong ba lô và những lựa chọn bạn đã thực hiện trong lần chạy hiện tại",
+          "Nhật ký hành trình: bản ghi các lần chạy đã hoàn thành - điểm số, điểm, kết thúc, thời lượng, các chương đã hoàn thành và tài nguyên cuối cùng",
+          "Cài đặt: tùy chọn của bạn, chẳng hạn như ngôn ngữ giao diện và liệu các gợi ý trong trò chơi có được hiển thị hay không"
+        ]
+      },
+      {
+        "heading": "4. Quảng cáo có tặng thưởng",
+        "paragraphs": [
+          "Trò chơi này miễn phí và được tài trợ bởi quảng cáo có tặng thưởng. Quảng cáo không bao giờ bị ép buộc đối với bạn và không bao giờ làm gián đoạn câu chuyện: quảng cáo chỉ phát khi bạn chủ động chọn xem một quảng cáo để đổi lấy lợi ích trong trò chơi — hiện tại, quảng cáo sẽ phục hồi sau khi trò chơi kết thúc và khôi phục thêm thể lực. Không có quảng cáo biểu ngữ và không có quảng cáo xen kẽ. Bạn có thể hoàn thành toàn bộ trò chơi mà không cần xem một quảng cáo nào.",
+          "Quảng cáo có tặng thưởng được phân phối bởi {adProvider}, một dịch vụ quảng cáo của bên thứ ba. Để chọn và hiển thị quảng cáo cũng như ngăn chặn gian lận, nhà cung cấp đó có thể thu thập và xử lý:"
+        ],
+        "bullets": [
+          "Mã nhận dạng quảng cáo trên thiết bị của bạn — ID có thể đặt lại được sử dụng để hạn chế các quảng cáo lặp lại và đo lường hiệu suất quảng cáo",
+          "Địa chỉ IP của bạn, từ đó có thể lấy được vị trí gần đúng ở cấp thành phố",
+          "Thông tin về thiết bị và hệ thống như kiểu máy, phiên bản hệ điều hành, ngôn ngữ, múi giờ và đặc điểm màn hình",
+          "Dữ liệu tương tác với quảng cáo, chẳng hạn như quảng cáo đã được yêu cầu, hiển thị, xem đến hết hay được nhấp vào"
+        ]
+      },
+      {
+        "heading": "5. Những gì chúng ta nhận được và những gì chúng ta không bao giờ làm",
+        "paragraphs": [
+          "Dữ liệu trong phần trước được nhà cung cấp quảng cáo thu thập theo chính sách bảo mật của riêng họ — chúng tôi không nhận dữ liệu dưới dạng nhận dạng bạn. Những gì chúng tôi nhận được chỉ là báo cáo tổng hợp: số lượng quảng cáo được hiển thị và số tiền kiếm được. Chúng tôi không thể liên kết điều đó trở lại với bất kỳ người chơi cá nhân nào.",
+          "Chúng tôi không bán dữ liệu cá nhân của bạn và chúng tôi không chia sẻ dữ liệu đó với các nhà môi giới dữ liệu. Chúng tôi không kết hợp dữ liệu quảng cáo với trò chơi đã lưu hoặc nhật ký hành trình của bạn, những dữ liệu này vẫn còn trên thiết bị của bạn và không bao giờ được truyền đi.",
+          "Nhà cung cấp quảng cáo xử lý dữ liệu được mô tả ở trên dưới dạng bên kiểm soát độc lập. Chính sách riêng của nó chi phối việc xử lý:"
+        ],
+        "link": {
+          "label": "Chính sách về quyền riêng tư của {adProvider}",
+          "url": "{adProviderPrivacyUrl}"
+        }
+      },
+      {
+        "heading": "6. Sự đồng ý và lựa chọn quảng cáo của bạn",
+        "paragraphs": [
+          "Nếu bạn ở Khu vực kinh tế Châu Âu, Vương quốc Anh hoặc Thụy Sĩ, ứng dụng sẽ yêu cầu sự đồng ý của bạn trước khi sử dụng quảng cáo được cá nhân hóa thông qua cuộc đối thoại về sự đồng ý do dịch vụ quảng cáo cung cấp. Bạn có thể từ chối. Trò chơi vẫn hoàn toàn có thể chơi được và quảng cáo có tặng thưởng vẫn hoạt động — đơn giản là chúng sẽ không được cá nhân hóa, nghĩa là chúng không được chọn dựa trên hồ sơ sở thích của bạn. Bạn có thể thay đổi hoặc rút lại lựa chọn của mình bất kỳ lúc nào trong cài đặt của trò chơi.",
+          "Trên iOS, ứng dụng phải xin phép bạn trước khi có thể sử dụng mã nhận dạng quảng cáo của thiết bị để theo dõi. Nếu bạn từ chối, số nhận dạng đó sẽ không có sẵn đối với nhà cung cấp quảng cáo.",
+          "Độc lập với ứng dụng, bạn có thể kiểm soát mã nhận dạng quảng cáo ở cấp hệ thống:"
+        ],
+        "bullets": [
+          "Android: Cài đặt, rồi Bảo mật, rồi Quảng cáo - bạn có thể đặt lại ID quảng cáo hoặc xóa nó hoàn toàn",
+          "iOS: Cài đặt, rồi Quyền riêng tư và bảo mật, rồi Theo dõi - bạn có thể tắt yêu cầu theo dõi cho tất cả ứng dụng",
+          "Bạn cũng có thể đơn giản là không xem quảng cáo có tặng thưởng; chúng hoàn toàn không bắt buộc"
+        ]
+      },
+      {
+        "heading": "7. Truy cập mạng",
+        "paragraphs": [
+          "Tất cả văn bản câu chuyện, bản dịch, hình ảnh và dữ liệu trò chơi đều được gói bên trong ứng dụng và được tải từ bộ nhớ cục bộ. Ứng dụng không tải xuống nội dung trò chơi và không liên hệ với bất kỳ máy chủ nào do chúng tôi vận hành - chúng tôi không vận hành.",
+          "Lưu lượng truy cập mạng ra ngoài duy nhất của ứng dụng là đến nhà cung cấp quảng cáo và nó xảy ra liên quan đến quảng cáo có tặng thưởng."
+        ]
+      },
+      {
+        "heading": "8. Xóa dữ liệu của bạn",
+        "paragraphs": [
+          "Việc gỡ cài đặt ứng dụng sẽ xóa vĩnh viễn trò chơi đã lưu, nhật ký hành trình và cài đặt của bạn khỏi thiết bị. Xóa bộ nhớ của ứng dụng thông qua cài đặt hệ thống của thiết bị cũng có tác dụng tương tự. Chúng tôi không giữ bản sao phía máy chủ nào để xóa vì chưa có bản sao nào được tạo.",
+          "Để xóa hoặc đặt lại mã nhận dạng quảng cáo do nhà cung cấp quảng cáo nắm giữ, hãy sử dụng các biện pháp kiểm soát cấp hệ thống được liệt kê trong phần 6 hoặc liên hệ trực tiếp với nhà cung cấp đó bằng chính sách được liên kết trong phần 5."
+        ]
+      },
+      {
+        "heading": "9. Trang web này",
+        "paragraphs": [
+          "Trang web không sử dụng cookie, không phân tích, không pixel theo dõi, không quảng cáo và không có tập lệnh của bên thứ ba. Không có gì bạn làm ở đây được ghi lại bởi chúng tôi.",
+          "Trang web được phục vụ thông qua Trang GitHub. Giống như bất kỳ máy chủ web nào, máy chủ của GitHub có thể ghi lại thông tin yêu cầu kỹ thuật như địa chỉ IP và tác nhân người dùng trình duyệt của bạn để phân phối trang và bảo vệ dịch vụ. Quá trình xử lý đó được điều chỉnh bởi tuyên bố về quyền riêng tư của GitHub."
+        ]
+      },
+      {
+        "heading": "10. Quyền riêng tư của trẻ em",
+        "paragraphs": [
+          "Ứng dụng này dành cho đối tượng chung và không hướng đến trẻ em dưới 13 tuổi. Chúng tôi không cố ý thu thập thông tin cá nhân từ trẻ em.",
+          "Khi ứng dụng được phân phối tới đối tượng có thể bao gồm trẻ em, nhà cung cấp quảng cáo được định cấu hình để chỉ phân phát quảng cáo không được cá nhân hóa, hướng đến trẻ em và mã nhận dạng quảng cáo không được sử dụng để xây dựng hồ sơ sở thích.",
+          "Nếu bạn tin rằng một đứa trẻ đã cung cấp thông tin cá nhân thông qua ứng dụng, vui lòng liên hệ với chúng tôi và chúng tôi sẽ xử lý việc đó."
+        ]
+      },
+      {
+        "heading": "11. Quyền của bạn",
+        "paragraphs": [
+          "Các luật về quyền riêng tư như GDPR và CCPA cung cấp cho bạn quyền truy cập, chỉnh sửa, xuất hoặc xóa dữ liệu cá nhân được lưu giữ về bạn, rút ​​lại sự đồng ý và phản đối việc bán hoặc chia sẻ dữ liệu của bạn.",
+          "Chúng tôi không giữ dữ liệu cá nhân về bạn, vì vậy chúng tôi không có gì để tiết lộ, chỉnh sửa hoặc xuất khẩu và chúng tôi chưa bao giờ bán hoặc chia sẻ thông tin cá nhân. Dữ liệu được mô tả trong phần 3 vẫn còn trên thiết bị của bạn và hoàn toàn nằm trong tầm kiểm soát của bạn.",
+          "Đối với dữ liệu quảng cáo được mô tả ở phần 4, nhà cung cấp quảng cáo là bên kiểm soát. Thực hiện các quyền của bạn đối với nhà cung cấp đó bằng cách sử dụng chính sách được liên kết trong phần 5 hoặc rút lại sự đồng ý trong cài đặt của trò chơi bất cứ lúc nào. Nếu bạn liên hệ với chúng tôi trước, chúng tôi sẽ chỉ cho bạn con đường phù hợp."
+        ]
+      },
+      {
+        "heading": "12. Thay đổi chính sách này",
+        "paragraphs": [
+          "Nếu cách thực hiện dữ liệu của ứng dụng thay đổi thì chính sách này sẽ được cập nhật trước khi thay đổi đến tay người dùng và ngày ở đầu trang này sẽ được sửa đổi."
+        ]
+      },
+      {
+        "heading": "13. Liên hệ",
+        "paragraphs": [
+          "Nếu bạn có thắc mắc về chính sách này, vui lòng liên hệ với chúng tôi theo địa chỉ bên dưới.",
+          "Liên hệ: {email}"
+        ]
+      }
+    ]
+  }
+}

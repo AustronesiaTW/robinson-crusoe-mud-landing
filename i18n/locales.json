@@ -1,0 +1,148 @@
+{
+  "defaultLocale": "en",
+  "locales": [
+    {
+      "code": "en",
+      "htmlLang": "en",
+      "hreflang": "en",
+      "label": "English",
+      "nativeLabel": "English",
+      "route": "/",
+      "output": "index.html",
+      "canonical": "/",
+      "public": true
+    },
+    {
+      "code": "zh-TW",
+      "htmlLang": "zh-Hant",
+      "hreflang": "zh-Hant",
+      "label": "Traditional Chinese",
+      "nativeLabel": "繁體中文",
+      "route": "/zh-TW/",
+      "output": "zh-TW/index.html",
+      "canonical": "/zh-TW/",
+      "public": true
+    },
+    {
+      "code": "zh-CN",
+      "htmlLang": "zh-Hans",
+      "hreflang": "zh-Hans",
+      "label": "Simplified Chinese",
+      "nativeLabel": "简体中文",
+      "route": "/zh-CN/",
+      "output": "zh-CN/index.html",
+      "canonical": "/zh-CN/",
+      "public": false
+    },
+    {
+      "code": "es",
+      "htmlLang": "es",
+      "hreflang": "es",
+      "label": "Spanish",
+      "nativeLabel": "Español",
+      "route": "/es/",
+      "output": "es/index.html",
+      "canonical": "/es/",
+      "public": false
+    },
+    {
+      "code": "pt",
+      "htmlLang": "pt",
+      "hreflang": "pt",
+      "label": "Portuguese",
+      "nativeLabel": "Português",
+      "route": "/pt/",
+      "output": "pt/index.html",
+      "canonical": "/pt/",
+      "public": false
+    },
+    {
+      "code": "fr",
+      "htmlLang": "fr",
+      "hreflang": "fr",
+      "label": "French",
+      "nativeLabel": "Français",
+      "route": "/fr/",
+      "output": "fr/index.html",
+      "canonical": "/fr/",
+      "public": false
+    },
+    {
+      "code": "it",
+      "htmlLang": "it",
+      "hreflang": "it",
+      "label": "Italian",
+      "nativeLabel": "Italiano",
+      "route": "/it/",
+      "output": "it/index.html",
+      "canonical": "/it/",
+      "public": false
+    },
+    {
+      "code": "de",
+      "htmlLang": "de",
+      "hreflang": "de",
+      "label": "German",
+      "nativeLabel": "Deutsch",
+      "route": "/de/",
+      "output": "de/index.html",
+      "canonical": "/de/",
+      "public": false
+    },
+    {
+      "code": "ja",
+      "htmlLang": "ja",
+      "hreflang": "ja",
+      "label": "Japanese",
+      "nativeLabel": "日本語",
+      "route": "/ja/",
+      "output": "ja/index.html",
+      "canonical": "/ja/",
+      "public": false
+    },
+    {
+      "code": "ko",
+      "htmlLang": "ko",
+      "hreflang": "ko",
+      "label": "Korean",
+      "nativeLabel": "한국어",
+      "route": "/ko/",
+      "output": "ko/index.html",
+      "canonical": "/ko/",
+      "public": false
+    },
+    {
+      "code": "vi",
+      "htmlLang": "vi",
+      "hreflang": "vi",
+      "label": "Vietnamese",
+      "nativeLabel": "Tiếng Việt",
+      "route": "/vi/",
+      "output": "vi/index.html",
+      "canonical": "/vi/",
+      "public": false
+    },
+    {
+      "code": "id",
+      "htmlLang": "id",
+      "hreflang": "id",
+      "label": "Indonesian",
+      "nativeLabel": "Bahasa Indonesia",
+      "route": "/id/",
+      "output": "id/index.html",
+      "canonical": "/id/",
+      "public": false
+    },
+    {
+      "code": "ru",
+      "htmlLang": "ru",
+      "hreflang": "ru",
+      "label": "Russian",
+      "nativeLabel": "Русский",
+      "route": "/ru/",
+      "output": "ru/index.html",
+      "canonical": "/ru/",
+      "public": false
+    }
+  ]
+}
