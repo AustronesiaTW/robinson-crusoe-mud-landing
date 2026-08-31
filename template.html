@@ -50,12 +50,25 @@
     padding: 14px 20px; max-width: 960px; margin: 0 auto;
   }
   .brand { font-weight: bold; letter-spacing: 1px; }
-  .lang-switcher { display: flex; align-items: center; justify-content: flex-end; gap: 8px; flex-wrap: wrap; }
-  .lang-switch {
-    font-size: 0.85rem; text-decoration: none;
-    border: 1px solid var(--faded-brown); border-radius: 20px; padding: 4px 14px;
+  .visually-hidden {
+    position: absolute; width: 1px; height: 1px; padding: 0;
+    margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
   }
-  .lang-switch.current { background: var(--faded-brown); color: var(--parchment); }
+  .lang-switcher { display: flex; align-items: center; }
+  .lang-switcher select {
+    font-family: inherit; font-size: 0.85rem; color: var(--leather);
+    background-color: var(--parchment-light);
+    background-image: linear-gradient(45deg, transparent 50%, var(--faded-brown) 50%),
+                      linear-gradient(135deg, var(--faded-brown) 50%, transparent 50%);
+    background-position: calc(100% - 16px) 52%, calc(100% - 11px) 52%;
+    background-size: 5px 5px, 5px 5px;
+    background-repeat: no-repeat;
+    border: 1px solid var(--faded-brown); border-radius: 20px;
+    padding: 5px 32px 5px 14px; cursor: pointer;
+    -webkit-appearance: none; -moz-appearance: none; appearance: none;
+    max-width: 60vw; text-overflow: ellipsis;
+  }
+  .lang-switcher select:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 
   .hero { text-align: center; padding: 32px 0 48px; }
   .hero h1 { font-size: 1.9rem; letter-spacing: {{HERO_LETTER_SPACING}}; margin-bottom: 10px; }
@@ -126,10 +139,13 @@
   .option .cost { font-size: 0.78rem; color: var(--faded-brown); }
 
   .langs { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; max-width: 640px; margin: 0 auto; }
-  .langs span {
+  .langs a, .langs span {
     background: var(--parchment-light); border: 1px solid rgba(92,64,51,0.25);
-    border-radius: 20px; padding: 5px 14px; font-size: 0.85rem; color: var(--muted-brown);
+    border-radius: 20px; padding: 5px 14px; font-size: 0.85rem;
+    color: var(--muted-brown); text-decoration: none;
   }
+  .langs a:hover, .langs a:focus-visible { background: var(--parchment); border-color: var(--faded-brown); }
+  .langs .current { background: var(--faded-brown); color: var(--parchment); border-color: var(--faded-brown); }
 
   .cta-final { text-align: center; background: var(--leather); color: var(--parchment); padding: 52px 20px; }
   .cta-final h2 { color: var(--parchment); margin-bottom: 6px; }
@@ -204,5 +220,12 @@
   {{FOOTER_HTML}}
 </footer>
 
+<script>
+document.querySelectorAll('[data-lang-switcher]').forEach(function (select) {
+  select.addEventListener('change', function () {
+    if (this.value) window.location.href = this.value;
+  });
+});
+</script>
 </body>
 </html>

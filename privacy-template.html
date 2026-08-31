@@ -7,6 +7,18 @@
 <title>{{PAGE_TITLE}}</title>
 <meta name="description" content="{{META_DESCRIPTION}}">
 <link rel="canonical" href="{{CANONICAL_URL}}">
+{{ALTERNATE_LINKS}}
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{OG_TITLE}}">
+<meta property="og:description" content="{{OG_DESCRIPTION}}">
+<meta property="og:image" content="{{OG_IMAGE_URL}}">
+<meta property="og:url" content="{{OG_URL}}">
+<meta property="og:locale" content="{{OG_LOCALE}}">
+{{OG_LOCALE_ALTERNATE}}
+<meta name="twitter:card" content="{{TWITTER_CARD}}">
+<meta name="twitter:title" content="{{TWITTER_TITLE}}">
+<meta name="twitter:description" content="{{TWITTER_DESCRIPTION}}">
+<meta name="twitter:image" content="{{TWITTER_IMAGE_URL}}">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏝️</text></svg>">
 <style>
   :root {
@@ -34,6 +46,25 @@
     padding: 14px 20px; max-width: 720px; margin: 0 auto;
   }
   .brand { font-weight: bold; letter-spacing: 1px; }
+  .visually-hidden {
+    position: absolute; width: 1px; height: 1px; padding: 0;
+    margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+  }
+  .lang-switcher { display: flex; align-items: center; }
+  .lang-switcher select {
+    font-family: inherit; font-size: 0.85rem; color: var(--leather);
+    background-color: var(--parchment-light);
+    background-image: linear-gradient(45deg, transparent 50%, var(--faded-brown) 50%),
+                      linear-gradient(135deg, var(--faded-brown) 50%, transparent 50%);
+    background-position: calc(100% - 16px) 52%, calc(100% - 11px) 52%;
+    background-size: 5px 5px, 5px 5px;
+    background-repeat: no-repeat;
+    border: 1px solid var(--faded-brown); border-radius: 20px;
+    padding: 5px 32px 5px 14px; cursor: pointer;
+    -webkit-appearance: none; -moz-appearance: none; appearance: none;
+    max-width: 60vw; text-overflow: ellipsis;
+  }
+  .lang-switcher select:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
   .back-link {
     font-size: 0.85rem; text-decoration: none;
     border: 1px solid var(--faded-brown); border-radius: 20px; padding: 4px 14px;
@@ -63,6 +94,7 @@
 
 <header>
   <span class="brand">{{HEADER_BRAND}}</span>
+  {{LANGUAGE_SWITCHER}}
   <a class="back-link" href="{{HOME_HREF}}">{{BACK_LABEL}}</a>
 </header>
 
@@ -77,5 +109,12 @@
   {{FOOTER_HTML}}
 </footer>
 
+<script>
+document.querySelectorAll('[data-lang-switcher]').forEach(function (select) {
+  select.addEventListener('change', function () {
+    if (this.value) window.location.href = this.value;
+  });
+});
+</script>
 </body>
 </html>

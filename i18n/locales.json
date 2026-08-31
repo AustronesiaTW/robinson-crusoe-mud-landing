@@ -32,7 +32,7 @@
       "route": "/zh-CN/",
       "output": "zh-CN/index.html",
       "canonical": "/zh-CN/",
-      "public": false
+      "public": true
     },
     {
       "code": "es",
@@ -43,7 +43,7 @@
       "route": "/es/",
       "output": "es/index.html",
       "canonical": "/es/",
-      "public": false
+      "public": true
     },
     {
       "code": "pt",
@@ -54,7 +54,7 @@
       "route": "/pt/",
       "output": "pt/index.html",
       "canonical": "/pt/",
-      "public": false
+      "public": true
     },
     {
       "code": "fr",
@@ -65,7 +65,7 @@
       "route": "/fr/",
       "output": "fr/index.html",
       "canonical": "/fr/",
-      "public": false
+      "public": true
     },
     {
       "code": "it",
@@ -76,7 +76,7 @@
       "route": "/it/",
       "output": "it/index.html",
       "canonical": "/it/",
-      "public": false
+      "public": true
     },
     {
       "code": "de",
@@ -87,7 +87,7 @@
       "route": "/de/",
       "output": "de/index.html",
       "canonical": "/de/",
-      "public": false
+      "public": true
     },
     {
       "code": "ja",
@@ -98,7 +98,7 @@
       "route": "/ja/",
       "output": "ja/index.html",
       "canonical": "/ja/",
-      "public": false
+      "public": true
     },
     {
       "code": "ko",
@@ -109,7 +109,7 @@
       "route": "/ko/",
       "output": "ko/index.html",
       "canonical": "/ko/",
-      "public": false
+      "public": true
     },
     {
       "code": "vi",
@@ -120,7 +120,7 @@
       "route": "/vi/",
       "output": "vi/index.html",
       "canonical": "/vi/",
-      "public": false
+      "public": true
     },
     {
       "code": "id",
@@ -131,7 +131,7 @@
       "route": "/id/",
       "output": "id/index.html",
       "canonical": "/id/",
-      "public": false
+      "public": true
     },
     {
       "code": "ru",
@@ -142,7 +142,7 @@
       "route": "/ru/",
       "output": "ru/index.html",
       "canonical": "/ru/",
-      "public": false
+      "public": true
     }
   ]
 }
