@@ -116,7 +116,7 @@
     "metaDescription": "Kebijakan privasi untuk Robinson Crusoe: The Castaway's Journal — kemajuan game Anda tetap ada di perangkat Anda; iklan reward opsional ditayangkan oleh penyedia periklanan pihak ketiga.",
     "backLabel": "Kembali ke rumah",
     "lastUpdatedLabel": "Terakhir diperbarui",
-    "intro": "Singkatnya: kami tidak menjalankan server dan tidak menyimpan data pribadi tentang Anda. Kemajuan game Anda tetap ada di perangkat Anda. Game ini gratis dan didukung oleh iklan berhadiah opsional yang Anda pilih untuk ditonton — dan penyedia periklanan yang menayangkan iklan tersebut mengumpulkan pengidentifikasi perangkat dan iklan berdasarkan kebijakan privasinya sendiri. Detailnya ada di bawah.",
+    "intro": "Singkatnya: kami tidak mengoperasikan akun game atau server progres game, dan data game tersimpan tetap ada di perangkat Anda. Game ini menggunakan Google Mobile Ads untuk iklan berhadiah opsional. SDK-nya dapat secara otomatis mengumpulkan dan membagikan data perangkat dan aplikasi untuk iklan, analitik, pengukuran, dan pencegahan penipuan, termasuk saat Anda tidak menonton iklan. Detail dan kontrol tersedia di bawah.",
     "sections": [
       {
         "heading": "1. Siapa yang dicakup dalam kebijakan ini",
@@ -126,9 +126,9 @@
         ]
       },
       {
-        "heading": "2. Informasi yang tidak kami kumpulkan",
+        "heading": "2. Informasi yang tidak diminta oleh game",
         "paragraphs": [
-          "Kami tidak mengoperasikan server apa pun, dan aplikasi tidak mengirimkan apa pun kepada kami. Secara khusus, aplikasi tidak pernah mengumpulkan:"
+          "Game ini tidak memiliki sistem akun atau server game milik kami. Game tidak mengunggah data tersimpan atau jurnal perjalanan Anda. Bagian ini menjelaskan informasi yang tidak kami minta untuk Anda masukkan; pengumpulan data oleh Google Mobile Ads dijelaskan di bagian 4."
         ],
         "bullets": [
           "Nama, alamat email, nomor telepon, atau detail kontak lainnya",
@@ -154,21 +154,22 @@
         "heading": "4. Iklan berhadiah",
         "paragraphs": [
           "Game ini gratis dan didanai oleh iklan berhadiah. Iklan tidak pernah dipaksakan kepada Anda dan tidak pernah mengganggu cerita: iklan hanya diputar ketika Anda secara aktif memilih untuk menontonnya dengan imbalan keuntungan dalam game — saat ini, muncul kembali setelah permainan selesai dan memulihkan stamina ekstra. Tidak ada iklan banner dan tidak ada iklan interstisial. Anda dapat menyelesaikan seluruh permainan tanpa menonton satu iklan pun.",
-          "Iklan berhadiah dikirimkan oleh {adProvider}, layanan periklanan pihak ketiga. Untuk memilih dan menampilkan iklan, dan untuk mencegah penipuan, penyedia tersebut dapat mengumpulkan dan memproses:"
+          "Iklan berhadiah disediakan oleh {adProvider}, layanan iklan pihak ketiga. SDK-nya dapat secara otomatis mengumpulkan, memproses, dan membagikan data berikut untuk iklan, analitik, pengukuran, dan pencegahan penipuan, termasuk saat Anda tidak menonton iklan:"
         ],
         "bullets": [
-          "Pengidentifikasi iklan perangkat Anda — ID yang dapat disetel ulang yang digunakan untuk membatasi iklan berulang dan mengukur kinerja iklan",
-          "Alamat IP Anda, yang dapat digunakan untuk memperoleh perkiraan lokasi tingkat kota",
-          "Informasi perangkat dan sistem seperti model, versi sistem operasi, bahasa, zona waktu, dan karakteristik layar",
-          "Data interaksi iklan seperti apakah iklan diminta, ditampilkan, ditonton sampai selesai, atau diklik"
+          "ID iklan perangkat Anda — pengenal yang dapat direset dan dapat digunakan untuk membatasi iklan berulang serta mengukur kinerja iklan",
+          "Alamat IP Anda, yang dapat digunakan untuk memperkirakan lokasi umum Anda",
+          "Informasi interaksi produk, seperti aplikasi dibuka, ketukan, dan video ditonton",
+          "Data diagnostik kinerja aplikasi atau SDK, seperti waktu mulai, aplikasi macet, atau penggunaan energi",
+          "ID perangkat, yang di Android dapat mencakup ID Iklan dan App Set ID; ID lain mungkin berlaku bergantung pada platform dan konfigurasi"
         ]
       },
       {
         "heading": "5. Apa yang kita terima, dan apa yang tidak pernah kita lakukan",
         "paragraphs": [
-          "Data di bagian sebelumnya dikumpulkan oleh penyedia periklanan berdasarkan kebijakan privasinya sendiri — kami tidak menerimanya dalam bentuk yang mengidentifikasi Anda. Yang sampai kepada kami hanyalah laporan agregat saja: berapa banyak iklan yang ditampilkan dan berapa banyak pendapatan yang diperoleh. Kami tidak dapat menghubungkannya kembali ke pemain individu mana pun.",
-          "Kami tidak menjual data pribadi Anda, dan kami tidak membagikannya kepada broker data. Kami tidak menggabungkan data iklan dengan permainan tersimpan atau log perjalanan Anda, yang tetap ada di perangkat Anda dan tidak pernah dikirimkan.",
-          "Penyedia periklanan memproses data yang dijelaskan di atas sebagai pengontrol independen. Kebijakannya sendiri mengatur pemrosesan itu:"
+          "Aplikasi tidak mengirim data tersimpan, jurnal perjalanan, atau profil pemain yang dibuat aplikasi ke server yang kami operasikan. Google dapat memberikan laporan iklan agregat kepada kami. Google dan mitra iklan dapat memproses data SDK sesuai ketentuan privasi yang berlaku; peran dan penggunaannya bergantung pada layanan dan konfigurasi.",
+          "Kami tidak menggabungkan data SDK iklan dengan data tersimpan atau jurnal perjalanan Anda. Catatan game tersebut tetap ada di perangkat dan tidak diunggah oleh logika game.",
+          "Google menjelaskan penggunaan data saat aplikasi pihak ketiga menggunakan layanan Google di:"
         ],
         "link": {
           "label": "kebijakan privasi {adProvider}",
@@ -178,8 +179,8 @@
       {
         "heading": "6. Persetujuan dan pilihan iklan Anda",
         "paragraphs": [
-          "Jika Anda berada di Wilayah Ekonomi Eropa, Inggris, atau Swiss, aplikasi akan meminta persetujuan Anda sebelum iklan yang dipersonalisasi digunakan, melalui dialog persetujuan yang disediakan oleh layanan periklanan. Anda mungkin menolak. Game ini tetap dapat dimainkan sepenuhnya, dan iklan reward tetap berfungsi — iklan tersebut tidak dipersonalisasi, artinya iklan tersebut tidak dipilih berdasarkan profil minat Anda. Anda dapat mengubah atau menarik pilihan Anda kapan saja di pengaturan game.",
-          "Di iOS, aplikasi harus meminta izin Anda sebelum dapat menggunakan pengidentifikasi iklan perangkat untuk pelacakan. Jika Anda menolak, pengidentifikasi tersebut tidak tersedia untuk penyedia periklanan.",
+          "Jika layanan iklan mewajibkan pesan persetujuan, aplikasi menggunakan User Messaging Platform (UMP) Google untuk menampilkan pilihan privasi iklan yang tersedia. Anda dapat menolak iklan yang dipersonalisasi jika pilihan itu tersedia; game tetap dapat dimainkan sepenuhnya dan iklan non-personalisasi atau terbatas mungkin masih tersedia. Menolak personalisasi tidak menghentikan semua pemrosesan data SDK, seperti penayangan teknis, pembatasan frekuensi, pengukuran, atau pencegahan penipuan. Pilihan privasi UMP muncul di menu game saat UMP menyatakan titik akses diperlukan.",
+          "Keterangan iOS dalam kebijakan ini masih sementara: versi iOS belum siap dirilis. Sebelum merilis versi iOS, kami akan memverifikasi SDK produksi, perilaku pelacakan, kontrol persetujuan, dan deklarasi App Store, lalu memperbarui kebijakan ini.",
           "Terlepas dari aplikasinya, Anda dapat mengontrol pengidentifikasi iklan di tingkat sistem:"
         ],
         "bullets": [
@@ -192,14 +193,14 @@
         "heading": "7. Akses jaringan",
         "paragraphs": [
           "Semua teks cerita, terjemahan, gambar, dan data game digabungkan di dalam aplikasi dan dimuat dari penyimpanan lokal. Aplikasi ini tidak mengunduh konten game, dan tidak menghubungi server mana pun yang kami operasikan — kami tidak mengoperasikan apa pun.",
-          "Satu-satunya lalu lintas jaringan keluar aplikasi adalah ke penyedia periklanan, dan ini terjadi sehubungan dengan iklan berhadiah."
+          "Aplikasi tidak memiliki server progres game. Google Mobile Ads dan UMP diinisialisasi saat aplikasi dimulai dan dapat membuat permintaan jaringan untuk mengelola persetujuan, menayangkan iklan, melakukan pengukuran, dan mencegah penipuan; pemrosesan data tidak hanya terjadi saat iklan ditonton."
         ]
       },
       {
         "heading": "8. Menghapus data Anda",
         "paragraphs": [
           "Mencopot pemasangan aplikasi secara permanen akan menghapus permainan yang disimpan, log perjalanan, dan pengaturan Anda dari perangkat Anda. Menghapus penyimpanan aplikasi melalui pengaturan sistem perangkat Anda memiliki efek yang sama. Kami tidak menyimpan salinan sisi server untuk dihapus, karena tidak ada yang pernah dibuat.",
-          "Untuk menghapus atau mengatur ulang pengidentifikasi iklan yang dimiliki oleh penyedia periklanan, gunakan kontrol tingkat sistem yang tercantum di bagian 6, atau hubungi penyedia tersebut secara langsung menggunakan kebijakan yang tertaut di bagian 5."
+          "Anda dapat mereset atau menghapus ID Iklan Android melalui setelan privasi iklan perangkat, serta mengubah pilihan privasi iklan yang tersedia melalui UMP. Tindakan ini belum tentu menghapus informasi yang sudah diproses Google atau mitra iklannya. Untuk data yang disimpan penyedia atau permintaan privasi, gunakan sumber privasi Google yang ditautkan di bagian 5. Saat ini kami tidak menyediakan kontrol dalam aplikasi untuk menghapus catatan penyedia iklan."
         ]
       },
       {
@@ -212,8 +213,8 @@
       {
         "heading": "10. Privasi anak-anak",
         "paragraphs": [
-          "Aplikasi ini ditujukan untuk khalayak umum dan tidak ditujukan untuk anak-anak di bawah 13 tahun. Kami tidak dengan sengaja mengumpulkan informasi pribadi dari anak-anak.",
-          "Jika aplikasi didistribusikan ke audiens yang mungkin mencakup anak-anak, penyedia periklanan dikonfigurasi untuk hanya menayangkan iklan yang ditujukan untuk anak-anak dan tidak dipersonalisasi, dan pengidentifikasi iklan tidak digunakan untuk membuat profil minat.",
+          "Kelompok usia sasaran game dan konfigurasi iklan yang ditujukan kepada anak belum ditetapkan. Sebelum mendistribusikan game kepada audiens yang mencakup anak-anak, kami akan memverifikasi persyaratan yang berlaku, mengonfigurasi permintaan iklan yang sesuai, dan memperbarui kebijakan ini.",
+          "Kami tidak dengan sengaja meminta anak-anak memberikan data pribadi. Namun, SDK iklan masih dapat memproses data perangkat atau aplikasi; distribusi kepada anak-anak memerlukan peninjauan terpisah atas pengumpulan data dan setelan iklan.",
           "Jika Anda yakin ada anak yang memberikan informasi pribadi melalui aplikasi, silakan hubungi kami dan kami akan menindaklanjutinya."
         ]
       },
@@ -221,8 +222,8 @@
         "heading": "11. Hak Anda",
         "paragraphs": [
           "Undang-undang privasi seperti GDPR dan CCPA memberi Anda hak untuk mengakses, mengoreksi, mengekspor, atau menghapus data pribadi yang disimpan tentang Anda, untuk membatalkan persetujuan, dan menolak data Anda dijual atau dibagikan.",
-          "Kami tidak menyimpan data pribadi tentang Anda, jadi kami tidak boleh mengungkapkan, memperbaiki, atau mengekspor apa pun, dan kami tidak pernah menjual atau membagikan informasi pribadi. Data yang dijelaskan di bagian 3 tetap ada di perangkat Anda dan sepenuhnya berada di bawah kendali Anda.",
-          "Untuk data periklanan yang dijelaskan di bagian 4, penyedia periklanan adalah pengontrolnya. Gunakan hak Anda terhadap penyedia tersebut menggunakan kebijakan yang tertaut di bagian 5, atau tarik persetujuan dalam pengaturan game kapan saja. Jika Anda menghubungi kami terlebih dahulu, kami akan mengarahkan Anda ke rute yang benar."
+          "Kami tidak memiliki akun pemain atau profil game di server. Google dan, bergantung pada penayangan iklan, mitranya memproses data SDK iklan; kami tidak menggabungkannya dengan data tersimpan lokal Anda.",
+          "Untuk data iklan dan hak privasi yang tersedia, gunakan sumber privasi Google yang ditautkan di bagian 5 serta kontrol iklan pada perangkat Anda. Pilihan privasi UMP tersedia dari menu game saat layanan mewajibkan titik akses tersebut. Alamat kontak yang kami publikasikan harus aktif sebelum peluncuran agar Anda dapat mengirim pertanyaan atau permintaan."
         ]
       },
       {

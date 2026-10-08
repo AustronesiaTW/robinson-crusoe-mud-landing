@@ -113,10 +113,10 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "metaDescription": "Privacy policy for Robinson Crusoe: The Castaway's Journal — your game progress stays on your device; optional rewarded ads are delivered by a third-party advertising provider.",
+    "metaDescription": "Privacy policy for Robinson Crusoe: The Castaway's Journal — game progress stays on your device; Google Mobile Ads may automatically process device and app data for rewarded advertising.",
     "backLabel": "Back to home",
     "lastUpdatedLabel": "Last updated",
-    "intro": "In short: we run no servers and hold no personal data about you. Your game progress stays on your device. The game is free and is supported by optional rewarded ads that you choose to watch — and the advertising provider that delivers those ads collects device and advertising identifiers under its own privacy policy. The details are below.",
+    "intro": "In short: we do not operate a game account or game-progress server, and your saved progress stays on your device. The game uses Google Mobile Ads for optional rewarded ads. Its SDK may automatically collect and share device and app data for advertising, analytics, and fraud prevention, including when you are not watching an ad. Details and controls are below.",
     "sections": [
       {
         "heading": "1. Who this policy covers",
@@ -126,9 +126,9 @@
         ]
       },
       {
-        "heading": "2. Information we do not collect",
+        "heading": "2. Information the game does not ask you to provide",
         "paragraphs": [
-          "We do not operate any server, and the app sends nothing to us. Specifically, the app never collects:"
+          "The game has no account system or first-party game server. The game itself does not upload your saved game or voyage history. This section describes information we do not ask you to enter; Google Mobile Ads SDK data collection is described separately in section 4."
         ],
         "bullets": [
           "Names, email addresses, phone numbers, or any other contact details",
@@ -154,21 +154,22 @@
         "heading": "4. Rewarded advertising",
         "paragraphs": [
           "The game is free and is funded by rewarded advertising. Ads are never forced on you and never interrupt the story: an ad plays only when you actively choose to watch one in exchange for an in-game benefit — currently, reviving after a game over and restoring extra stamina. There are no banner ads and no interstitial ads. You can finish the entire game without watching a single ad.",
-          "Rewarded ads are delivered by {adProvider}, a third-party advertising service. To select and display an ad, and to prevent fraud, that provider may collect and process:"
+          "Rewarded ads are delivered by {adProvider}, a third-party advertising service. Its SDK may automatically collect, process, and share the following data to deliver ads, support analytics, and prevent fraud, including when no ad is being watched:"
         ],
         "bullets": [
           "Your device's advertising identifier — a resettable ID used to limit repeated ads and to measure ad performance",
-          "Your IP address, from which an approximate, city-level location can be derived",
-          "Device and system information such as model, operating system version, language, time zone, and screen characteristics",
-          "Ad interaction data such as whether an ad was requested, shown, watched to completion, or clicked"
+          "Your IP address, which may be used to estimate your general location",
+          "Product-interaction information, which may include app launches, taps, and video views",
+          "Diagnostics about app or SDK performance, such as launch time, hangs, or energy use",
+          "Device identifiers, which on Android may include the Advertising ID and App Set ID; other identifiers may apply depending on platform and configuration"
         ]
       },
       {
         "heading": "5. What we receive, and what we never do",
         "paragraphs": [
-          "The data in the previous section is collected by the advertising provider under its own privacy policy — we do not receive it in a form that identifies you. What reaches us is aggregate reporting only: how many ads were shown and how much revenue was earned. We cannot link that back to any individual player.",
-          "We do not sell your personal data, and we do not share it with data brokers. We combine no advertising data with your saved game or voyage log, which remain on your device and are never transmitted.",
-          "The advertising provider processes the data described above as an independent controller. Its own policy governs that processing:"
+          "The app does not send your saved game, voyage history, or an app-generated player profile to a server we operate. Google may provide us with aggregate advertising reports. Google and advertising partners may process SDK data under their applicable privacy terms; their roles and uses depend on the service and configuration.",
+          "We do not combine ad SDK data with your saved game or voyage history. Those game records remain on your device and are not uploaded by the game logic.",
+          "For Google's explanation of data use when third-party apps use Google services, see:"
         ],
         "link": {
           "label": "{adProvider} privacy policy",
@@ -178,8 +179,8 @@
       {
         "heading": "6. Consent and your advertising choices",
         "paragraphs": [
-          "If you are in the European Economic Area, the United Kingdom, or Switzerland, the app asks for your consent before personalised advertising is used, through a consent dialogue provided by the advertising service. You may decline. The game remains fully playable, and rewarded ads still work — they will simply be non-personalised, meaning they are not selected based on a profile of your interests. You can change or withdraw your choice at any time in the game's settings.",
-          "On iOS, the app must ask for your permission before it can use the device advertising identifier for tracking. If you decline, that identifier is not available to the advertising provider.",
+          "Where the advertising service requires a consent message, the app uses Google's User Messaging Platform (UMP) to present the available ad privacy choices. You may decline personalized advertising where that choice is offered; the game remains fully playable, and some non-personalized or limited ads may still be available. Declining personalization does not stop all SDK data processing, such as technical delivery, frequency capping, measurement, or fraud prevention. UMP privacy options appear in the game menu when UMP reports that an entry point is required.",
+          "The iOS privacy statements in this policy are provisional: the iOS build is not release-ready. Before an iOS release, we will verify the production SDK, tracking behavior, consent controls, and App Store disclosures and update this policy.",
           "Independently of the app, you can control the advertising identifier at the system level:"
         ],
         "bullets": [
@@ -192,14 +193,14 @@
         "heading": "7. Network access",
         "paragraphs": [
           "All story text, translations, images, and game data are bundled inside the app and loaded from local storage. The app does not download game content, and it does not contact any server operated by us — we operate none.",
-          "The app's only outbound network traffic is to the advertising provider, and it occurs in connection with rewarded ads."
+          "The app has no game-progress server. The Google Mobile Ads and UMP SDKs are initialized as the app starts and may make network requests for consent handling, ad delivery, analytics and measurement, and fraud prevention; data processing is not limited to the moment an ad is watched."
         ]
       },
       {
         "heading": "8. Deleting your data",
         "paragraphs": [
           "Uninstalling the app permanently deletes the saved game, the voyage log, and your settings from your device. Clearing the app's storage through your device's system settings has the same effect. We hold no server-side copy to delete, because none is ever created.",
-          "To erase or reset the advertising identifier held by the advertising provider, use the system-level controls listed in section 6, or contact that provider directly using the policy linked in section 5."
+          "You can reset or delete your Android Advertising ID using your device's ad privacy settings, and you can change available ad privacy choices through UMP. These actions do not necessarily delete information already processed by Google or its ad partners. For provider-held data or privacy requests, use Google's privacy resources linked in section 5. We do not currently offer an in-app deletion control for advertising-provider records."
         ]
       },
       {
@@ -212,8 +213,8 @@
       {
         "heading": "10. Children's privacy",
         "paragraphs": [
-          "The app is intended for a general audience and is not directed at children under 13. We do not knowingly collect personal information from children.",
-          "Where the app is distributed to an audience that may include children, the advertising provider is configured to serve only non-personalised, child-directed advertising, and the advertising identifier is not used to build an interest profile.",
+          "The app's age audience and child-directed advertising configuration have not yet been finalized. Before distributing the app to an audience that includes children, we will verify the applicable requirements, configure ad requests accordingly, and update this policy.",
+          "We do not knowingly ask children to provide personal information. The advertising SDK may still process device or app data, so child-inclusive distribution requires a separate review of data collection and ad settings.",
           "If you believe a child has provided personal information through the app, please contact us and we will act on it."
         ]
       },
@@ -221,8 +222,8 @@
         "heading": "11. Your rights",
         "paragraphs": [
           "Privacy laws such as the GDPR and the CCPA give you rights to access, correct, export, or delete personal data held about you, to withdraw consent, and to object to your data being sold or shared.",
-          "We hold no personal data about you, so we have nothing to disclose, correct, or export, and we have never sold or shared personal information. The data described in section 3 stays on your device and remains entirely under your control.",
-          "For the advertising data described in section 4, the advertising provider is the controller. Exercise your rights against that provider using the policy linked in section 5, or withdraw consent in the game's settings at any time. If you contact us first, we will point you to the right route."
+          "We do not maintain a player account or server-side game profile. Advertising SDK data is processed by Google and, depending on ad delivery, its partners; we do not combine it with your local saved game.",
+          "For advertising data and available privacy rights, use Google's privacy resources linked in section 5 and your device's advertising controls. UMP privacy options are available from the game menu when the service requires that entry point. Our published contact address must be active before release so you can reach us with questions or requests."
         ]
       },
       {

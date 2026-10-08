@@ -116,7 +116,7 @@
     "metaDescription": "Datenschutzrichtlinie für Robinson Crusoe: The Castaway's Journal – Ihr Spielfortschritt bleibt auf Ihrem Gerät; Optionale belohnte Anzeigen werden von einem Drittanbieter für Werbung bereitgestellt.",
     "backLabel": "Zurück zur Startseite",
     "lastUpdatedLabel": "Letzte Aktualisierung",
-    "intro": "Kurz gesagt: Wir betreiben keine Server und speichern keine persönlichen Daten über Sie. Ihr Spielfortschritt bleibt auf Ihrem Gerät. Das Spiel ist kostenlos und wird durch optionale belohnte Werbung unterstützt, die Sie sich ansehen möchten – und der Werbeanbieter, der diese Anzeigen liefert, erfasst Geräte- und Werbekennungen im Rahmen seiner eigenen Datenschutzrichtlinie. Die Details finden Sie weiter unten.",
+    "intro": "Kurz gesagt: Wir betreiben weder Spielkonten noch einen Server für Spielfortschritte, und Ihr Spielstand bleibt auf Ihrem Gerät. Das Spiel verwendet Google Mobile Ads für optionale Prämienanzeigen. Das SDK kann Geräte- und App-Daten automatisch für Werbung, Analysen und Erfolgsmessung sowie Betrugsprävention erfassen und weitergeben, auch wenn Sie keine Anzeige ansehen. Einzelheiten und Steuerungsmöglichkeiten finden Sie unten.",
     "sections": [
       {
         "heading": "1. Wen diese Police abdeckt",
@@ -126,9 +126,9 @@
         ]
       },
       {
-        "heading": "2. Informationen, die wir nicht sammeln",
+        "heading": "2. Angaben, um die das Spiel Sie nicht bittet",
         "paragraphs": [
-          "Wir betreiben keinen Server und die App sendet nichts an uns. Insbesondere sammelt die App niemals:"
+          "Das Spiel hat kein Kontosystem und keinen eigenen Spielserver. Das Spiel selbst lädt weder Ihren Spielstand noch Ihr Reisetagebuch hoch. Hier geht es um Angaben, die wir Sie nicht eingeben lassen; die Datenerfassung durch Google Mobile Ads wird in Abschnitt 4 beschrieben."
         ],
         "bullets": [
           "Namen, E-Mail-Adressen, Telefonnummern oder andere Kontaktdaten",
@@ -154,21 +154,22 @@
         "heading": "4. Belohnte Werbung",
         "paragraphs": [
           "Das Spiel ist kostenlos und wird durch belohnte Werbung finanziert. Werbung wird Ihnen niemals aufgezwungen und unterbricht niemals die Geschichte: Eine Werbung wird nur dann abgespielt, wenn Sie sich aktiv dafür entscheiden, sie im Austausch für einen Vorteil im Spiel anzusehen – derzeit zum Wiederaufleben nach einem Spielende und zur Wiederherstellung zusätzlicher Ausdauer. Es gibt keine Bannerwerbung und keine Interstitial-Werbung. Sie können das gesamte Spiel beenden, ohne eine einzige Werbung anzusehen.",
-          "Prämienanzeigen werden von {adProvider}, einem Drittanbieter-Werbedienst, bereitgestellt. Um eine Anzeige auszuwählen und anzuzeigen und um Betrug zu verhindern, kann dieser Anbieter Folgendes erfassen und verarbeiten:"
+          "Prämienanzeigen werden von {adProvider}, einem Drittanbieter für Werbung, bereitgestellt. Das SDK kann automatisch folgende Daten für Werbung, Analysen, Messung und Betrugsprävention erfassen, verarbeiten und weitergeben — auch wenn Sie keine Anzeige ansehen:"
         ],
         "bullets": [
-          "Die Werbekennung Ihres Geräts – eine zurücksetzbare ID, die zur Begrenzung wiederholter Anzeigen und zur Messung der Anzeigenleistung verwendet wird.",
-          "Ihre IP-Adresse, aus der ein ungefährer Standort auf Stadtebene abgeleitet werden kann.",
-          "Geräte- und Systeminformationen wie Modell, Betriebssystemversion, Sprache, Zeitzone und Bildschirmeigenschaften.",
-          "Anzeige Interaktionsdaten, beispielsweise ob eine Anzeige angefordert, angezeigt, vollständig angesehen oder angeklickt wurde"
+          "Die Werbekennung Ihres Geräts — eine zurücksetzbare Kennung, mit der wiederholte Anzeigen begrenzt und die Anzeigenleistung gemessen werden kann",
+          "Ihre IP-Adresse, die zur Schätzung Ihres allgemeinen Standorts verwendet werden kann",
+          "Informationen zu Produktinteraktionen, etwa App-Starts, Tippen und Videoaufrufe",
+          "Diagnosedaten zur App- oder SDK-Leistung, etwa Startzeit, Hänger oder Energieverbrauch",
+          "Gerätekennungen, darunter auf Android möglicherweise die Werbe-ID und die App Set ID; weitere Kennungen können je nach Plattform und Konfiguration hinzukommen"
         ]
       },
       {
         "heading": "5. Was wir erhalten und was wir niemals tun",
         "paragraphs": [
-          "Die Daten im vorherigen Abschnitt werden vom Werbeanbieter im Rahmen seiner eigenen Datenschutzrichtlinie erfasst – wir erhalten sie nicht in einer Form, die Sie identifiziert. Was uns erreicht, sind lediglich aggregierte Berichte: wie viele Anzeigen geschaltet wurden und wie viel Umsatz erzielt wurde. Wir können das nicht auf einen einzelnen Spieler zurückführen.",
-          "Wir verkaufen Ihre personenbezogenen Daten nicht und geben sie nicht an Datenbroker weiter. Wir kombinieren keine Werbedaten mit Ihrem gespeicherten Spiel oder Reiseprotokoll, diese verbleiben auf Ihrem Gerät und werden niemals übertragen.",
-          "Der Werbeanbieter verarbeitet die oben beschriebenen Daten als unabhängiger Verantwortlicher. Ihre eigene Richtlinie regelt diese Verarbeitung:"
+          "Die App sendet Ihren Spielstand, Ihr Reisetagebuch oder ein von der App erstelltes Spielerprofil nicht an einen von uns betriebenen Server. Google kann uns aggregierte Werbeberichte bereitstellen. Google und Werbepartner können SDK-Daten gemäß den jeweils geltenden Datenschutzbedingungen verarbeiten; Rollen und Zwecke hängen vom Dienst und der Konfiguration ab.",
+          "Wir verknüpfen SDK-Werbedaten nicht mit Ihrem Spielstand oder Reisetagebuch. Diese Spieldaten bleiben auf Ihrem Gerät und werden nicht durch die Spiellogik hochgeladen.",
+          "Google erläutert die Datennutzung, wenn Apps von Drittanbietern Google-Dienste verwenden, hier:"
         ],
         "link": {
           "label": "{adProvider} Datenschutzrichtlinie",
@@ -178,8 +179,8 @@
       {
         "heading": "6. Einwilligung und Ihre Werbeoptionen",
         "paragraphs": [
-          "Wenn Sie sich im Europäischen Wirtschaftsraum, im Vereinigten Königreich oder in der Schweiz befinden, bittet die App Sie um Ihre Einwilligung, bevor personalisierte Werbung verwendet wird, und zwar über einen vom Werbedienst bereitgestellten Einwilligungsdialog. Sie können ablehnen. Das Spiel bleibt vollständig spielbar und belohnte Anzeigen funktionieren weiterhin – sie sind lediglich nicht personalisiert, das heißt, sie werden nicht auf der Grundlage eines Profils Ihrer Interessen ausgewählt. Sie können Ihre Auswahl jederzeit in den Spieleinstellungen ändern oder widerrufen.",
-          "Unter iOS muss die App Ihre Erlaubnis einholen, bevor sie die Werbekennung des Geräts zum Tracking verwenden kann. Wenn Sie dies ablehnen, ist diese Kennung für den Werbeanbieter nicht verfügbar.",
+          "Wenn der Werbedienst eine Einwilligungsnachricht verlangt, verwendet die App Googles User Messaging Platform (UMP), um die verfügbaren Datenschutzoptionen für Werbung anzuzeigen. Sie können personalisierte Werbung ablehnen, sofern diese Option angeboten wird; das Spiel bleibt vollständig spielbar, und nicht personalisierte oder eingeschränkte Anzeigen können weiterhin verfügbar sein. Die Ablehnung der Personalisierung beendet nicht jede SDK-Datenverarbeitung, etwa technische Auslieferung, Frequenzbegrenzung, Messung oder Betrugsprävention. Datenschutzoptionen von UMP erscheinen im Spielmenü, wenn UMP einen entsprechenden Einstiegspunkt verlangt.",
+          "Die iOS-Angaben in dieser Richtlinie sind vorläufig: Die iOS-Version ist noch nicht zur Veröffentlichung bereit. Vor einer iOS-Veröffentlichung prüfen wir das Produktions-SDK, das Tracking-Verhalten, die Einwilligungskontrollen und die App-Store-Angaben und aktualisieren diese Richtlinie.",
           "Unabhängig von der App können Sie die Werbe-ID auf Systemebene steuern:"
         ],
         "bullets": [
@@ -192,14 +193,14 @@
         "heading": "7. Netzwerkzugriff",
         "paragraphs": [
           "Alle Story-Texte, Übersetzungen, Bilder und Spieldaten werden in der App gebündelt und aus dem lokalen Speicher geladen. Die App lädt keine Spielinhalte herunter und kontaktiert keinen von uns betriebenen Server – wir betreiben keinen.",
-          "Der einzige ausgehende Netzwerkverkehr der App geht an den Werbeanbieter und erfolgt in Verbindung mit belohnten Anzeigen."
+          "Die App hat keinen Server für Spielfortschritte. Google Mobile Ads und UMP werden beim Start der App initialisiert und können Netzwerkanfragen für die Einwilligungsverwaltung, Werbeauslieferung, Messung und Betrugsprävention senden; die Datenverarbeitung ist nicht auf den Zeitpunkt beschränkt, an dem eine Anzeige angesehen wird."
         ]
       },
       {
         "heading": "8. Löschen Ihrer Daten",
         "paragraphs": [
           "Durch die Deinstallation der App werden das gespeicherte Spiel, das Reiseprotokoll und Ihre Einstellungen dauerhaft von Ihrem Gerät gelöscht. Das Löschen des App-Speichers über die Systemeinstellungen Ihres Geräts hat den gleichen Effekt. Wir behalten keine serverseitige Kopie zum Löschen vor, da nie eine erstellt wird.",
-          "Um die vom Werbeanbieter gespeicherte Werbekennung zu löschen oder zurückzusetzen, verwenden Sie die in Abschnitt 6 aufgeführten Kontrollen auf Systemebene oder kontaktieren Sie diesen Anbieter direkt über die in Abschnitt 5 verlinkte Richtlinie."
+          "Sie können Ihre Android-Werbe-ID in den Datenschutzeinstellungen für Werbung Ihres Geräts zurücksetzen oder löschen und verfügbare Datenschutzoptionen über UMP ändern. Dadurch werden zuvor von Google oder seinen Werbepartnern verarbeitete Daten nicht unbedingt gelöscht. Für Anfragen zu Daten beim Anbieter oder sonstige Datenschutzanfragen nutzen Sie die in Abschnitt 5 verlinkten Datenschutzressourcen von Google. Eine In-App-Funktion zum Löschen von Datensätzen des Werbeanbieters bieten wir derzeit nicht an."
         ]
       },
       {
@@ -212,8 +213,8 @@
       {
         "heading": "10. Privatsphäre von Kindern",
         "paragraphs": [
-          "Die App richtet sich an ein allgemeines Publikum und richtet sich nicht an Kinder unter 13 Jahren. Wir erfassen wissentlich keine personenbezogenen Daten von Kindern.",
-          "Wenn die App an eine Zielgruppe verteilt wird, zu der auch Kinder gehören können, ist der Werbeanbieter so konfiguriert, dass er nur nicht personalisierte, an Kinder gerichtete Werbung liefert, und die Werbekennung wird nicht zur Erstellung eines Interessenprofils verwendet.",
+          "Die Alterszielgruppe des Spiels und die Einstellungen für kindgerichtete Werbung stehen noch nicht fest. Vor einer Verbreitung an eine Zielgruppe mit Kindern prüfen wir die geltenden Anforderungen, konfigurieren die Werbeanfragen entsprechend und aktualisieren diese Richtlinie.",
+          "Wir fordern Kinder nicht wissentlich dazu auf, personenbezogene Daten bereitzustellen. Das Werbe-SDK kann dennoch Geräte- oder App-Daten verarbeiten; eine Verbreitung an Kinder erfordert daher eine gesonderte Prüfung der Datenerfassung und Werbeeinstellungen.",
           "Wenn Sie glauben, dass ein Kind über die App personenbezogene Daten bereitgestellt hat, kontaktieren Sie uns bitte und wir werden entsprechend handeln."
         ]
       },
@@ -221,8 +222,8 @@
         "heading": "11. Ihre Rechte",
         "paragraphs": [
           "Datenschutzgesetze wie die DSGVO und der CCPA geben Ihnen das Recht, auf die über Sie gespeicherten personenbezogenen Daten zuzugreifen, diese zu korrigieren, zu exportieren oder zu löschen, Ihre Einwilligung zu widerrufen und dem Verkauf oder der Weitergabe Ihrer Daten zu widersprechen.",
-          "Wir verfügen über keine personenbezogenen Daten über Sie, daher haben wir nichts offenzulegen, zu korrigieren oder zu exportieren, und wir haben niemals personenbezogene Daten verkauft oder weitergegeben. Die in Abschnitt 3 beschriebenen Daten verbleiben auf Ihrem Gerät und unterliegen vollständig Ihrer Kontrolle.",
-          "Für die in Ziffer 4 beschriebenen Werbedaten ist der Werbeanbieter der Verantwortliche. Machen Sie Ihre Rechte gegenüber diesem Anbieter geltend, indem Sie die in Abschnitt 5 verlinkte Richtlinie nutzen oder die Einwilligung jederzeit in den Spieleinstellungen widerrufen. Wenn Sie uns zunächst kontaktieren, zeigen wir Ihnen den richtigen Weg."
+          "Wir führen weder Spielerkonten noch serverseitige Spielerprofile. Werbe-SDK-Daten werden von Google und je nach Werbeauslieferung auch von Partnern verarbeitet; wir verknüpfen sie nicht mit Ihrem lokal gespeicherten Spielstand.",
+          "Für Werbedaten und verfügbare Datenschutzrechte nutzen Sie die in Abschnitt 5 verlinkten Datenschutzressourcen von Google und die Werbeeinstellungen Ihres Geräts. UMP-Datenschutzoptionen sind über das Spielmenü verfügbar, wenn der Dienst diesen Einstiegspunkt verlangt. Unsere veröffentlichte Kontaktadresse muss vor der Veröffentlichung erreichbar sein, damit Sie uns Fragen oder Anfragen senden können."
         ]
       },
       {
