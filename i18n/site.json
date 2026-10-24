@@ -1,14 +1,14 @@
 {
-  "siteOrigin": "https://your-github-username.github.io",
-  "basePath": "/robinson-crusoe-mud",
+  "siteOrigin": "https://robinson-crusoe.austronesia.tw",
+  "basePath": "/",
   "brandName": "Robinson Crusoe: The Castaway's Journal",
   "appStoreUrl": "https://apps.apple.com/app/example",
   "googlePlayUrl": "https://play.google.com/store/apps/details?id=example",
   "copyrightYear": 2026,
   "ogImagePath": "assets/og-cover.jpg",
   "twitterCard": "summary_large_image",
-  "contactEmail": "privacy@example.com",
-  "privacyLastUpdated": "2026-08-31",
+  "contactEmail": "robinson.crusoe@austronesia.tw",
+  "privacyLastUpdated": "2026-10-07",
   "adProvider": {
     "name": "Google AdMob",
     "privacyUrl": "https://policies.google.com/technologies/partner-sites"

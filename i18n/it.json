@@ -116,7 +116,7 @@
     "metaDescription": "Informativa sulla privacy per Robinson Crusoe: The Castaway's Journal: i tuoi progressi di gioco rimangono sul tuo dispositivo; gli annunci con premio opzionali vengono forniti da un fornitore di pubblicità di terze parti.",
     "backLabel": "Torna alla home",
     "lastUpdatedLabel": "Ultimo aggiornamento",
-    "intro": "In breve: non gestiamo server e non conserviamo dati personali su di te. I tuoi progressi di gioco rimangono sul tuo dispositivo. Il gioco è gratuito ed è supportato da annunci con premio opzionali che scegli di guardare e il fornitore di pubblicità che fornisce tali annunci raccoglie identificatori di dispositivo e pubblicità in base alla propria politica sulla privacy. I dettagli sono riportati di seguito.",
+    "intro": "In breve: non gestiamo account di gioco né server per i progressi, e i salvataggi restano sul tuo dispositivo. Il gioco usa Google Mobile Ads per annunci con premio facoltativi. Il suo SDK può raccogliere e condividere automaticamente dati sul dispositivo e sull’app per pubblicità, analisi, misurazione e prevenzione delle frodi, anche quando non guardi un annuncio. Di seguito trovi dettagli e controlli.",
     "sections": [
       {
         "heading": "1. Chi copre questa polizza",
@@ -126,9 +126,9 @@
         ]
       },
       {
-        "heading": "2. Informazioni che non raccogliamo",
+        "heading": "2. Informazioni che il gioco non ti chiede",
         "paragraphs": [
-          "Non gestiamo alcun server e l'app non ci invia nulla. Nello specifico, l'app non raccoglie mai:"
+          "Il gioco non ha un sistema di account né un server di gioco gestito da noi. Il gioco non carica i tuoi salvataggi o il diario di viaggio. Questa sezione descrive le informazioni che non ti chiediamo di inserire; la raccolta di dati da parte di Google Mobile Ads è descritta nella sezione 4."
         ],
         "bullets": [
           "Nomi, indirizzi e-mail, numeri di telefono o altri dettagli di contatto",
@@ -154,21 +154,22 @@
         "heading": "4. Pubblicità con premi",
         "paragraphs": [
           "Il gioco è gratuito ed è finanziato dalla pubblicità con premi. Gli annunci pubblicitari non ti vengono mai imposti e non interrompono mai la storia: un annuncio viene riprodotto solo quando scegli attivamente di guardarne uno in cambio di un vantaggio di gioco - attualmente, si rianima dopo la fine del gioco e ripristina la resistenza extra. Non sono presenti banner pubblicitari né annunci interstitial. Puoi finire l'intero gioco senza guardare un singolo annuncio.",
-          "Gli annunci con premio vengono forniti da {adProvider}, un servizio pubblicitario di terze parti. Per selezionare e visualizzare un annuncio e prevenire frodi, il fornitore può raccogliere ed elaborare:"
+          "Gli annunci con premio sono forniti da {adProvider}, un servizio pubblicitario di terze parti. Il suo SDK può raccogliere, trattare e condividere automaticamente i seguenti dati per pubblicità, analisi, misurazione e prevenzione delle frodi, anche quando non guardi un annuncio:"
         ],
         "bullets": [
-          "L'identificatore pubblicitario del tuo dispositivo: un ID reimpostabile utilizzato per limitare gli annunci ripetuti e misurare il rendimento degli annunci",
-          "Il tuo indirizzo IP, da cui è possibile ricavare una posizione approssimativa a livello di città",
-          "Informazioni sul dispositivo e sul sistema come modello, versione del sistema operativo, lingua, fuso orario e caratteristiche dello schermo",
-          "Dati di interazione con gli annunci come ad esempio se un annuncio è stato richiesto, mostrato, guardato fino alla fine o cliccato"
+          "L’identificatore pubblicitario del tuo dispositivo, un identificatore reimpostabile che può essere usato per limitare annunci ripetuti e misurare il rendimento degli annunci",
+          "Il tuo indirizzo IP, che può essere usato per stimare la tua posizione generale",
+          "Informazioni sulle interazioni con il prodotto, come avvii dell’app, tocchi e visualizzazioni di video",
+          "Dati diagnostici sulle prestazioni dell’app o dell’SDK, come tempo di avvio, blocchi o consumo energetico",
+          "Identificatori del dispositivo, che su Android possono includere l’ID pubblicitario e App Set ID; possono essere applicabili altri identificatori in base alla piattaforma e alla configurazione"
         ]
       },
       {
         "heading": "5. Cosa riceviamo e cosa non facciamo mai",
         "paragraphs": [
-          "I dati nella sezione precedente vengono raccolti dal fornitore di pubblicità in base alla propria politica sulla privacy: non li riceviamo in una forma che ti identifichi. Ciò che ci arriva sono solo i report aggregati: quanti annunci sono stati mostrati e quante entrate sono state guadagnate. Non possiamo collegarlo a nessun singolo giocatore.",
-          "Non vendiamo i tuoi dati personali e non li condividiamo con broker di dati. Non combiniamo dati pubblicitari con il gioco salvato o il registro di viaggio, che rimangono sul tuo dispositivo e non vengono mai trasmessi.",
-          "Il fornitore della pubblicità tratta i dati sopra descritti in qualità di titolare autonomo del trattamento. La sua stessa policy regola tale trattamento:"
+          "L’app non invia i tuoi salvataggi, il diario di viaggio o un profilo giocatore creato dall’app a server gestiti da noi. Google può fornirci rapporti pubblicitari aggregati. Google e i partner pubblicitari possono trattare i dati SDK secondo le condizioni privacy applicabili; ruoli e usi dipendono dal servizio e dalla configurazione.",
+          "Non combiniamo i dati dell’SDK pubblicitario con i tuoi salvataggi o il diario di viaggio. Questi dati di gioco restano sul tuo dispositivo e non vengono caricati dalla logica del gioco.",
+          "Google spiega qui come usa i dati quando le app di terze parti utilizzano i suoi servizi:"
         ],
         "link": {
           "label": "Informativa sulla privacy di {adProvider}",
@@ -178,8 +179,8 @@
       {
         "heading": "6. Consenso e le tue scelte pubblicitarie",
         "paragraphs": [
-          "Se ti trovi nello Spazio Economico Europeo, nel Regno Unito o in Svizzera, l'app richiede il tuo consenso prima di utilizzare la pubblicità personalizzata, attraverso una finestra di dialogo di consenso fornita dal servizio pubblicitario. Potresti rifiutare. Il gioco rimane completamente giocabile e gli annunci con premio continuano a funzionare: saranno semplicemente non personalizzati, ovvero non verranno selezionati in base a un profilo dei tuoi interessi. Puoi modificare o ritirare la tua scelta in qualsiasi momento nelle impostazioni del gioco.",
-          "Su iOS, l'app deve chiedere la tua autorizzazione prima di poter utilizzare l'identificatore pubblicitario del dispositivo per il monitoraggio. Se rifiuti, tale identificatore non sarà disponibile per il fornitore di pubblicità.",
+          "Quando il servizio pubblicitario richiede un messaggio di consenso, l’app usa la User Messaging Platform (UMP) di Google per mostrare le opzioni disponibili per la privacy degli annunci. Puoi rifiutare la pubblicità personalizzata quando l’opzione è disponibile; il gioco resta interamente giocabile e potrebbero essere disponibili annunci non personalizzati o limitati. Rifiutare la personalizzazione non interrompe ogni trattamento dei dati da parte dell’SDK, come la distribuzione tecnica, il limite di frequenza, la misurazione o la prevenzione delle frodi. Le opzioni privacy di UMP compaiono nel menu del gioco quando UMP segnala che è necessario un punto di accesso.",
+          "Le informazioni iOS di questa informativa sono provvisorie: la versione iOS non è ancora pronta per il rilascio. Prima del rilascio verificheremo l’SDK di produzione, il comportamento di tracciamento, i controlli del consenso e le dichiarazioni per l’App Store, quindi aggiorneremo questa informativa.",
           "Indipendentemente dall'app, puoi controllare l'identificatore della pubblicità a livello di sistema:"
         ],
         "bullets": [
@@ -192,14 +193,14 @@
         "heading": "7. Accesso alla rete",
         "paragraphs": [
           "Tutto il testo della storia, le traduzioni, le immagini e i dati di gioco sono raggruppati all'interno dell'app e caricati dalla memoria locale. L'app non scarica contenuti di gioco e non contatta alcun server gestito da noi: non ne gestiamo nessuno.",
-          "L'unico traffico di rete in uscita dell'app è verso il fornitore di pubblicità e avviene in relazione agli annunci con premio."
+          "L’app non dispone di un server per i progressi di gioco. Google Mobile Ads e UMP vengono inizializzati all’avvio dell’app e possono inviare richieste di rete per gestire il consenso, distribuire annunci, misurare i risultati e prevenire le frodi; il trattamento dei dati non avviene soltanto mentre guardi un annuncio."
         ]
       },
       {
         "heading": "8. Cancellazione dei tuoi dati",
         "paragraphs": [
           "La disinstallazione dell'app elimina definitivamente il gioco salvato, il registro di viaggio e le impostazioni dal tuo dispositivo. Cancellare lo spazio di archiviazione dell'app tramite le impostazioni di sistema del dispositivo ha lo stesso effetto. Non conserviamo alcuna copia lato server da eliminare, poiché non ne viene mai creata alcuna.",
-          "Per cancellare o reimpostare l'identificatore pubblicitario detenuto dal fornitore di pubblicità, utilizzare i controlli a livello di sistema elencati nella sezione 6 o contattare direttamente il fornitore utilizzando la politica collegata nella sezione 5."
+          "Puoi reimpostare o eliminare l’ID pubblicitario Android dalle impostazioni privacy degli annunci del dispositivo e modificare le opzioni disponibili tramite UMP. Queste azioni non eliminano necessariamente i dati già trattati da Google o dai suoi partner pubblicitari. Per i dati detenuti dal fornitore o per richieste privacy, usa le risorse Google collegate nella sezione 5. Al momento non offriamo nell’app un comando per eliminare i dati conservati dal fornitore pubblicitario."
         ]
       },
       {
@@ -212,8 +213,8 @@
       {
         "heading": "10. Privacy dei bambini",
         "paragraphs": [
-          "L'app è destinata a un pubblico generale e non è rivolta ai bambini di età inferiore a 13 anni. Non raccogliamo consapevolmente informazioni personali dei bambini.",
-          "Se l'app viene distribuita a un pubblico che può includere bambini, il fornitore di pubblicità è configurato per offrire solo pubblicità non personalizzata, rivolta ai bambini e l'identificatore pubblicitario non viene utilizzato per creare un profilo di interessi.",
+          "Il pubblico per età del gioco e la configurazione degli annunci rivolti ai bambini non sono ancora stati definiti. Prima di distribuire il gioco a un pubblico che includa bambini, verificheremo i requisiti applicabili, configureremo di conseguenza le richieste pubblicitarie e aggiorneremo questa informativa.",
+          "Non chiediamo consapevolmente ai bambini di fornire dati personali. L’SDK pubblicitario può comunque trattare dati del dispositivo o dell’app; la distribuzione ai bambini richiede quindi una verifica specifica della raccolta dei dati e delle impostazioni pubblicitarie.",
           "Se ritieni che un bambino abbia fornito informazioni personali tramite l'app, contattaci e agiremo di conseguenza."
         ]
       },
@@ -221,8 +222,8 @@
         "heading": "11. I tuoi diritti",
         "paragraphs": [
           "Le leggi sulla privacy come il GDPR e il CCPA ti danno il diritto di accedere, correggere, esportare o eliminare i dati personali conservati su di te, di revocare il consenso e di opporti alla vendita o alla condivisione dei tuoi dati.",
-          "Non conserviamo dati personali su di te, quindi non abbiamo nulla da divulgare, correggere o esportare e non abbiamo mai venduto o condiviso informazioni personali. I dati descritti nella sezione 3 rimangono sul tuo dispositivo e rimangono interamente sotto il tuo controllo.",
-          "Per i dati pubblicitari descritti al punto 4 il titolare del trattamento è il fornitore della pubblicità. Esercita i tuoi diritti contro quel fornitore utilizzando la politica collegata nella sezione 5 o revoca il consenso nelle impostazioni del gioco in qualsiasi momento. Se ci contatti prima ti indicheremo il percorso giusto."
+          "Non gestiamo account giocatore né profili di gioco lato server. Google e, in base alla distribuzione degli annunci, i suoi partner trattano i dati dell’SDK pubblicitario; non li associamo ai tuoi salvataggi locali.",
+          "Per i dati pubblicitari e i diritti privacy disponibili, consulta le risorse Google collegate nella sezione 5 e i controlli pubblicitari del dispositivo. Le opzioni privacy UMP sono disponibili dal menu del gioco quando il servizio lo richiede. L’indirizzo di contatto pubblicato deve essere attivo prima del rilascio, così potrai inviarci domande o richieste."
         ]
       },
       {
